@@ -1,0 +1,793 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="fr"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Belle Nubian Paris | Soins Dermatologiques &amp; Cosmétiques de Luxe</title>
+<!-- Google Fonts: Cormorant Garamond (Editorial Serif) & Plus Jakarta Sans (Clean Modern Sans) -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="assets/styles.css" rel="stylesheet">
+<meta name="description" content="Belle Nubian Paris : soins visage et corps pour sublimer chaque carnation. Sérums, crèmes et rituels d'éclat formulés en France. Livraison offerte dès 75 €.">
+<meta name="theme-color" content="#FAF9F5">
+<!-- Open Graph / partage social. TODO : passer og:image en URL absolue et ajouter og:url une fois le domaine connu -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Belle Nubian Paris">
+<meta property="og:title" content="Belle Nubian Paris | Soins &amp; cosmétiques pour chaque carnation">
+<meta property="og:description" content="Sérums, crèmes et rituels d'éclat pour sublimer chaque carnation. Livraison offerte dès 75 €.">
+<meta property="og:image" content="images/hero-carnations.webp">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Belle Nubian Paris",
+  "email": "care@bellenubian.com"
+}
+</script>
+</head>
+<body class="bg-[#FAF9F5] text-[#111111] antialiased selection:bg-stone-800 selection:text-white">
+<a class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] focus:px-4 focus:py-2 focus:rounded-full focus:bg-black focus:text-white focus:text-sm" href="#main">Aller au contenu</a>
+<!-- BEGIN: MainHeader -->
+<header class="sticky top-0 z-50 bg-[#FAF9F5]/90 backdrop-blur-md border-b border-stone-200/60 transition-all duration-300">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+<!-- Logo Branding -->
+<div class="flex items-center space-x-8">
+<a class="group flex flex-col leading-none items-center" data-purpose="brand-logo" href="#"><span class="font-editorial text-2xl sm:text-3xl font-semibold tracking-tight text-stone-950">Belle Nubian</span><span class="text-[10px] uppercase tracking-widest text-stone-500 font-sans -mt-1">Paris</span></a>
+<!-- Desktop Navigation Links -->
+<nav class="hidden lg:flex items-center space-x-8 pl-6 border-l border-stone-300" aria-label="Navigation principale" data-purpose="main-navigation"><a class="text-sm font-medium tracking-wide text-rose-800 hover:text-black transition" href="#sale">Promo -40%</a>
+<button aria-controls="mega-menu" aria-expanded="false" class="group flex items-center gap-1 text-sm font-medium tracking-wide text-stone-800 hover:text-black aria-expanded:text-black transition" id="mega-menu-trigger" type="button">Nos Produits<svg aria-hidden="true" class="w-3.5 h-3.5 text-stone-500 transition-transform duration-200 group-aria-expanded:rotate-180" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+<a class="text-sm font-medium tracking-wide text-stone-700 hover:text-black transition" href="#skin-tones-section">Par carnation</a>
+<a class="text-sm font-medium tracking-wide text-stone-700 hover:text-black transition" href="#faq">À propos</a></nav>
+</div>
+<!-- Right Utility Icons -->
+<div class="flex items-center space-x-5 sm:space-x-6 text-stone-800" data-purpose="header-utilities">
+<!-- Search -->
+<button aria-label="Rechercher" class="p-1.5 hover:text-stone-500 transition" type="button">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+</button>
+<!-- Wishlist -->
+<a aria-label="Favoris" class="p-1.5 hover:text-stone-500 transition relative" data-wishlist-link href="produits.html?favoris=1">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+<span class="absolute top-0.5 right-0.5 w-1.5 h-1.5 bg-rose-700 rounded-full hidden" data-wishlist-dot></span>
+</a>
+<!-- Cart Bag -->
+<button aria-label="Panier vide" class="p-1.5 hover:text-stone-500 transition relative flex items-center" data-cart-button type="button">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25c-.67 0-1.19-.578-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+<span aria-hidden="true" class="ml-1 text-xs font-semibold hidden" data-cart-count>0</span>
+</button>
+<!-- Menu mobile -->
+<button aria-controls="mobile-menu" aria-expanded="false" aria-label="Ouvrir le menu" class="lg:hidden p-1.5 hover:text-stone-500 transition" id="mobile-menu-toggle" type="button">
+<svg aria-hidden="true" class="w-6 h-6" data-icon="open" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M3.75 6.75h16.5M3.75 12h16.5M3.75 17.25h16.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+<svg aria-hidden="true" class="w-6 h-6 hidden" data-icon="close" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+</button>
+</div>
+</div>
+<!-- Méga-menu « Nos Produits » (desktop) : chaque lien ouvre la collection pré-filtrée -->
+<div class="hidden lg:block absolute inset-x-0 top-full bg-[#FAF9F5] border-b border-stone-200 shadow-[0_24px_40px_-28px_rgba(0,0,0,0.25)] invisible opacity-0 -translate-y-1 transition duration-200" id="mega-menu">
+<div class="max-w-7xl mx-auto px-8 pt-10 pb-12 grid grid-cols-4 gap-10">
+<div>
+<h2 class="text-[11px] uppercase tracking-widest text-stone-500 font-semibold mb-5">À la une</h2>
+<ul class="space-y-3">
+<li><a class="text-sm font-medium text-stone-900 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html">Tous les produits</a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?sort=newest">Nouveautés</a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?sort=best-selling">Meilleures ventes</a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?concern=taches,hyperpigmentation">Collection Anti-Taches</a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?type=carte-cadeau">Carte cadeau</a></li>
+<li><a class="text-sm text-rose-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?promo=1">Promo -40%</a></li>
+</ul>
+</div>
+<div>
+<h2 class="text-[11px] uppercase tracking-widest text-stone-500 font-semibold mb-5">Par préoccupation</h2>
+<ul class="space-y-3">
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?concern=taches">Taches &amp; teint irrégulier</a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?concern=hyperpigmentation">Hyperpigmentation</a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?concern=teint-terne">Teint terne</a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?concern=peau-seche">Peau sèche</a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?concern=pores">Pores &amp; imperfections</a></li>
+</ul>
+</div>
+<div>
+<h2 class="text-[11px] uppercase tracking-widest text-stone-500 font-semibold mb-5">Par carnation</h2>
+<ul class="space-y-3">
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?tone=half-cast">Half Cast <span class="font-editorial italic text-stone-500">Métisse</span></a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?tone=light-skin">Light Skin <span class="font-editorial italic text-stone-500">Clair</span></a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?tone=diamond">Diamond <span class="font-editorial italic text-stone-500">Diamant</span></a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?tone=caramel">Caramel <span class="font-editorial italic text-stone-500">Caramel</span></a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?tone=dark">Dark <span class="font-editorial italic text-stone-500">Foncé</span></a></li>
+</ul>
+</div>
+<div>
+<h2 class="text-[11px] uppercase tracking-widest text-stone-500 font-semibold mb-5">Par type de produit</h2>
+<ul class="space-y-3">
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?type=nettoyants">Nettoyants &amp; savons</a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?type=serums">Sérums</a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?type=cremes">Crèmes visage</a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?type=solaire">Protection solaire</a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?type=corps">Soins corps</a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?type=coffrets">Coffrets</a></li>
+</ul>
+</div>
+</div>
+</div>
+<nav aria-label="Navigation mobile" class="lg:hidden hidden border-t border-stone-200/60 bg-[#FAF9F5]" id="mobile-menu">
+<ul class="max-w-7xl mx-auto px-4 sm:px-6 py-2 flex flex-col divide-y divide-stone-200/70">
+<li><a class="block py-3.5 text-sm font-medium tracking-wide text-rose-800 hover:text-black transition" href="#sale">Promo -40%</a></li>
+<li><a class="block py-3.5 text-sm font-medium tracking-wide text-stone-800 hover:text-black transition" href="produits.html">Nos Produits</a></li>
+<li><a class="block py-3.5 text-sm font-medium tracking-wide text-stone-800 hover:text-black transition" href="#skin-tones-section">Par carnation</a></li>
+<li><a class="block py-3.5 text-sm font-medium tracking-wide text-stone-800 hover:text-black transition" href="#faq">À propos</a></li>
+</ul>
+</nav>
+</header>
+<div aria-hidden="true" class="hidden lg:block fixed inset-0 top-20 z-40 bg-stone-900/20 invisible opacity-0 transition duration-200" id="mega-menu-backdrop"></div>
+<!-- END: MainHeader -->
+<main class="w-full" id="main">
+<!-- BEGIN: HeroSection -->
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 mb-3" data-purpose="hero-split-banner">
+<div class="grid grid-cols-1 lg:grid-cols-2 min-h-[580px] gap-3">
+<!-- Left Hero Content Box -->
+<div class="bg-[#EAE8E1] rounded-2xl p-8 sm:p-12 lg:p-16 flex flex-col justify-between relative overflow-hidden border border-stone-200/80"><div class="lg:hidden w-full aspect-[16/9] sm:aspect-[2.2/1] rounded-xl overflow-hidden relative mb-6 shadow-sm group border border-stone-300/70"><img alt="Diversité des carnations de peaux sublimées" class="w-full h-full object-cover object-center" src="images/hero-carnations.webp" style="object-position: left center;" width="1456" height="731" decoding="async" fetchpriority="high"></div>
+<!-- Top Tag -->
+<div class="inline-flex items-center gap-2">
+<span class="text-xs uppercase tracking-widest text-stone-600 font-semibold">L'éclat parfait pour toutes les carnations</span>
+<span class="hidden sm:block h-px w-8 bg-stone-400"></span>
+</div>
+<!-- Hero Headline & Description -->
+<div class="my-8 sm:my-10 max-w-lg">
+<h1 class="text-4xl sm:text-5xl lg:text-[3.4rem] font-editorial leading-[1.08] text-stone-950 font-normal">
+              Sublimez votre teint avec nos collections&nbsp; <span class="italic font-normal">exclusives</span></h1>
+<p class="mt-6 text-sm sm:text-base text-stone-600 font-light leading-relaxed max-w-sm">
+              Découvrez nos soins d'exception pour un teint parfait, lumineux et éclatant au quotidien !
+            </p>
+</div>
+<!-- Hero Action -->
+<div class="mt-4 flex flex-col items-start gap-4"><p class="font-editorial italic text-base sm:text-xl text-stone-700">Plus de <span class="font-semibold text-stone-900">50 000</span> femmes nous font déjà confiance</p><a class="inline-flex items-center justify-center px-8 py-3.5 bg-black text-white rounded-full text-xs sm:text-sm font-medium tracking-wide hover:bg-stone-800 transition duration-200 shadow-md" href="#new-products">Découvrir</a></div>
+</div>
+<!-- Right Hero Visual Showcase Card -->
+<div class="bg-[#F0EEE8] rounded-2xl relative overflow-hidden flex flex-col justify-between p-6 sm:p-10 border border-stone-200/80 group hidden lg:flex">
+<!-- Ambient product background illustration -->
+<div class="absolute inset-0 flex items-center justify-center opacity-95 group-hover:scale-[1.02] transition duration-700">
+<img alt="Diversité des carnations de peaux sublimées" class="w-full h-full object-cover object-center" src="images/hero-carnations.webp" style="object-position: left center;" width="1456" height="731" decoding="async" fetchpriority="high">
+</div>
+</div>
+</div>
+</section>
+<!-- END: HeroSection -->
+<!-- BEGIN: DualFeatureHighlights -->
+<section aria-label="Offres du moment" aria-roledescription="carrousel" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-0 pb-12 sm:pb-16" data-purpose="highlight-cards" id="dual-banners">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+<div class="bg-[#EBE9E2] rounded-2xl relative overflow-hidden border border-stone-200/80 shadow-sm w-full aspect-[14/5] transition duration-300" id="dual-card-1">
+<a aria-label="Découvrir les nouveautés" class="absolute inset-0 z-10 block" href="#new-products"><img alt="Nouvelle Crème Solaire Fluide Invisible SPF 50+" class="w-full h-full object-cover object-center" id="dual-c1-img" src="images/banner-creme-solaire.webp" width="1400" height="500" decoding="async" fetchpriority="high"></a>
+<div class="md:hidden absolute bottom-3 right-3 z-30 flex items-center gap-2">
+<button aria-label="Bannière précédente" class="w-8 h-8 rounded-full bg-white/90 backdrop-blur-sm border border-stone-300/80 shadow-sm flex items-center justify-center text-stone-800 hover:bg-black hover:text-white transition duration-200" data-dual-nav="prev" type="button"><svg aria-hidden="true" class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 19l-7-7 7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+<button aria-label="Bannière suivante" class="w-8 h-8 rounded-full bg-white/90 backdrop-blur-sm border border-stone-300/80 shadow-sm flex items-center justify-center text-stone-800 hover:bg-black hover:text-white transition duration-200" data-dual-nav="next" type="button"><svg aria-hidden="true" class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+</div>
+</div>
+<div class="hidden md:block bg-[#EBE9E2] rounded-2xl relative overflow-hidden border border-stone-200/80 shadow-sm w-full aspect-[14/5] transition duration-300" id="dual-card-2">
+<a aria-label="Découvrir les offres" class="absolute inset-0 z-10 block" href="#sale"><img alt="Belle Nubian Carte-Cadeau Nouveauté" class="w-full h-full object-cover object-center" id="dual-c2-img" src="images/banner-carte-cadeau.webp" width="1680" height="600" decoding="async" fetchpriority="high"></a>
+<!-- Navigation desktop/tablette, en bas à droite de la 2e bannière -->
+<div class="absolute bottom-3 right-3 z-30 flex items-center gap-2">
+<button aria-label="Bannières précédentes" class="w-8 h-8 rounded-full bg-white/90 backdrop-blur-sm border border-stone-300/80 shadow-sm flex items-center justify-center text-stone-800 hover:bg-black hover:text-white transition duration-200" data-dual-nav="prev" type="button"><svg aria-hidden="true" class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 19l-7-7 7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+<button aria-label="Bannières suivantes" class="w-8 h-8 rounded-full bg-white/90 backdrop-blur-sm border border-stone-300/80 shadow-sm flex items-center justify-center text-stone-800 hover:bg-black hover:text-white transition duration-200" data-dual-nav="next" type="button"><svg aria-hidden="true" class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+</div>
+</div>
+</div>
+</section>
+<!-- END: DualFeatureHighlights -->
+<!-- BEGIN: BrandMissionStatement -->
+<section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 sm:py-16 text-center" data-purpose="editorial-quote"><p class="text-xl sm:text-2xl lg:text-[1.85rem] leading-relaxed sm:leading-snug text-stone-800 font-light font-editorial max-w-4xl mx-auto text-center">Chez Belle Nubian, nous privilégions la qualité et des résultats durables<br class="hidden md:inline"> pour sublimer votre beauté naturelle tout en préservant votre peau.</p></section>
+<!-- END: BrandMissionStatement -->
+<!-- BEGIN: CategoryBrowser -->
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative overflow-hidden py-12 sm:py-16" data-purpose="category-grid" id="skin-tones-section">
+<!-- Section Header -->
+<div class="flex flex-col sm:flex-row sm:items-end justify-between mb-10 gap-4">
+<div>
+<div class="inline-flex items-center gap-2 mb-2">
+<span class="text-[11px] uppercase tracking-widest text-amber-700 font-semibold">Éclat sur-mesure</span>
+<span class="h-px w-8 bg-amber-600/40"></span>
+</div>
+<h2 class="text-2xl sm:text-3xl font-editorial font-semibold tracking-tight text-stone-900">Soins par Carnation</h2>
+<p class="mt-1 text-xs sm:text-sm text-stone-600 font-light">Des rituels dermatologiques ciblés, conçus pour sublimer et illuminer chaque carnation.</p>
+</div>
+<div class="flex items-center gap-3 flex-shrink-0">
+<a class="px-5 py-2 rounded-full border border-stone-300 text-xs font-medium text-stone-700 hover:bg-black hover:text-white hover:border-black transition duration-200" href="#skin-quiz">
+      Diagnostic de peau
+    </a>
+</div>
+</div>
+<!-- CONTENEUR ANIMÉ RELATIF -->
+<div class="relative w-full">
+<!-- VUE 1 : GRILLE INITIALE (5 CARTES) -->
+<div class="w-full" id="tone-grid-view">
+<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6" id="tone-cards-container">
+<!-- Tone 1: Half Cast (Métisse) -->
+<div class="tone-card-trigger tone-card-motion group flex flex-col items-center text-center cursor-pointer select-none" data-tone-id="half-cast" role="button" tabindex="0">
+<div class="w-full aspect-[4/5] bg-[#EBE8E1] overflow-hidden relative border border-stone-300/80 shadow-sm transition-all duration-500 group-hover:scale-105 group-hover:shadow-md rounded-2xl">
+<img alt="Collection teint Half Cast - Métisse" class="w-full h-full object-cover group-hover:scale-105 transition duration-700" src="images/img-09.webp" width="223" height="512" decoding="async" loading="lazy">
+<div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-80 group-hover:opacity-90 transition"></div>
+</div>
+<div class="mt-3.5 flex flex-col items-center">
+<span class="text-sm font-semibold tracking-wide text-stone-900 group-hover:text-amber-700 transition">Half Cast</span>
+<span class="text-sm font-editorial italic text-stone-500 font-normal">Métisse</span>
+</div>
+</div>
+<!-- Tone 2: Light Skin (Clair) -->
+<div class="tone-card-trigger tone-card-motion group flex flex-col items-center text-center cursor-pointer select-none" data-tone-id="light-skin" role="button" tabindex="0">
+<div class="w-full aspect-[4/5] bg-[#EBE8E1] overflow-hidden relative border border-stone-300/80 shadow-sm transition-all duration-500 group-hover:scale-105 group-hover:shadow-md rounded-2xl">
+<img alt="Collection teint Light Skin - Clair" class="w-full h-full object-cover group-hover:scale-105 transition duration-700" src="images/img-10.webp" width="221" height="512" decoding="async" loading="lazy">
+<div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-80 group-hover:opacity-90 transition"></div>
+</div>
+<div class="mt-3.5 flex flex-col items-center">
+<span class="text-sm font-semibold tracking-wide text-stone-900 group-hover:text-amber-700 transition">Light Skin</span>
+<span class="text-sm font-editorial italic text-stone-500 font-normal">Clair</span>
+</div>
+</div>
+<!-- Tone 3: Diamond (Diamant) -->
+<div class="tone-card-trigger tone-card-motion group flex flex-col items-center text-center cursor-pointer select-none" data-tone-id="diamond" role="button" tabindex="0">
+<div class="w-full aspect-[4/5] bg-[#EBE8E1] overflow-hidden relative border border-stone-300/80 shadow-sm transition-all duration-500 group-hover:scale-105 group-hover:shadow-md rounded-2xl">
+<img alt="Collection teint Diamond - Diamant" class="w-full h-full object-cover group-hover:scale-105 transition duration-700" src="images/img-11.webp" width="224" height="512" decoding="async" loading="lazy">
+<div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-80 group-hover:opacity-90 transition"></div>
+</div>
+<div class="mt-3.5 flex flex-col items-center">
+<span class="text-sm font-semibold tracking-wide text-stone-900 group-hover:text-amber-700 transition">Diamond</span>
+<span class="text-sm font-editorial italic text-stone-500 font-normal">Diamant</span>
+</div>
+</div>
+<!-- Tone 4: Caramel (Caramel) -->
+<div class="tone-card-trigger tone-card-motion group flex flex-col items-center text-center cursor-pointer select-none" data-tone-id="caramel" role="button" tabindex="0">
+<div class="w-full aspect-[4/5] bg-[#EBE8E1] overflow-hidden relative border border-stone-300/80 shadow-sm transition-all duration-500 group-hover:scale-105 group-hover:shadow-md rounded-2xl">
+<img alt="Collection teint Caramel" class="w-full h-full object-cover group-hover:scale-105 transition duration-700" src="images/img-12.webp" width="220" height="512" decoding="async" loading="lazy">
+<div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-80 group-hover:opacity-90 transition"></div>
+</div>
+<div class="mt-3.5 flex flex-col items-center">
+<span class="text-sm font-semibold tracking-wide text-stone-900 group-hover:text-amber-700 transition">Caramel</span>
+<span class="text-sm font-editorial italic text-stone-500 font-normal">Caramel</span>
+</div>
+</div>
+<!-- Tone 5: Dark (Foncé) -->
+<div class="tone-card-trigger tone-card-motion group flex flex-col items-center text-center cursor-pointer select-none" data-tone-id="dark" role="button" tabindex="0">
+<div class="w-full aspect-[4/5] bg-[#EBE8E1] overflow-hidden relative border border-stone-300/80 shadow-sm transition-all duration-500 group-hover:scale-105 group-hover:shadow-md rounded-2xl">
+<img alt="Collection teint Dark - Foncé" class="w-full h-full object-cover group-hover:scale-105 transition duration-700" src="images/img-13.webp" width="221" height="512" decoding="async" loading="lazy">
+<div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-80 group-hover:opacity-90 transition"></div>
+</div>
+<div class="mt-3.5 flex flex-col items-center">
+<span class="text-sm font-semibold tracking-wide text-stone-900 group-hover:text-amber-700 transition">Dark</span>
+<span class="text-sm font-editorial italic text-stone-500 font-normal">Foncé</span>
+</div>
+</div>
+</div>
+</div>
+<!-- VUE 2 : ÉTAT DÉTAILLÉ AVEC TRANSITION ULTRA FLUIDE / CINÉMATIQUE -->
+<div class="w-full hidden stage-hidden" id="tone-detail-stage">
+<!-- Conteneur 2 colonnes fidèle : Portrait à gauche + Carrousel à droite épuré directement aligné -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-stretch">
+<!-- COLONNE GAUCHE (environ 35% de largeur = 4 cols sur 12) : Grand Portrait avec transition cinématique -->
+<div class="detail-left-col lg:col-span-4 bg-white rounded-3xl p-3 sm:p-4 border border-stone-200/80 shadow-sm flex flex-col justify-between overflow-hidden relative">
+<div class="w-full h-full min-h-[460px] sm:min-h-[520px] rounded-2xl overflow-hidden relative flex flex-col justify-between bg-[#F7F4EE]">
+<!-- Visuel Mannequin plein format avec effet fondu doux au pied -->
+<div class="relative w-full h-full flex-grow overflow-hidden">
+<img alt="Mannequin nuance sélectionnée" class="w-full h-full object-cover object-top transition-all duration-700 ease-out" id="detail-model-img" src="images/img-12.webp" style="opacity: 1; transform: scale(1);" width="220" height="512" decoding="async" loading="lazy">
+<div class="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-white via-white/80 to-transparent"></div>
+</div>
+<!-- Encart descriptif de la nuance -->
+<div class="p-5 pt-0 bg-white relative z-10 flex flex-col">
+<div class="flex items-center justify-between">
+<div>
+<span class="text-[11px] uppercase tracking-widest text-amber-700 font-semibold block" id="detail-tone-subtitle">Teint Ambré &amp; Doré</span>
+<h3 class="text-2xl font-editorial font-semibold text-stone-900 leading-tight" id="detail-tone-title" tabindex="-1">Caramel • Caramel</h3>
+</div>
+<span class="w-2.5 h-2.5 rounded-full bg-emerald-500 ring-4 ring-emerald-100"></span>
+</div>
+<p class="text-xs text-stone-600 font-light mt-1.5 leading-relaxed" id="detail-tone-desc">Harmonise les sous-tons ambrés et nourrit en profondeur pour un fini satiné, radieux et ultra-lumineux.</p>
+</div>
+</div>
+</div>
+<!-- COLONNE DROITE (environ 65% de largeur = 8 cols sur 12) : Carrousel avec entrée fluide depuis la droite -->
+<div class="detail-right-col lg:col-span-8 flex flex-col justify-start relative bg-[#FAF9F5] rounded-3xl p-2 sm:p-4 border border-stone-200/60">
+<!-- En-tête carrousel -->
+<div class="px-2 mb-3">
+<div>
+<span class="text-xs uppercase tracking-widest text-stone-500 font-semibold">Produits recommandés</span>
+<p class="text-sm text-stone-800 font-medium">Routine complète pour cette nuance</p>
+</div>
+
+</div>
+<!-- Rail de défilement horizontal fluide avec cartes remontées sans vide excessif -->
+<div class="flex gap-5 overflow-x-auto pb-4 pt-0 px-2 snap-x snap-mandatory hide-scrollbar scroll-smooth" id="tone-products-track">
+<!-- Produit 1 : Crème Miracle Extra White 500ml -->
+<div class="stagger-item w-[260px] sm:w-[280px] flex-shrink-0 snap-start bg-white rounded-3xl p-6 border border-stone-200/90 shadow-md flex flex-col justify-between transition-transform duration-300 hover:-translate-y-1">
+<div class="w-full aspect-square bg-[#FAF9F5] rounded-2xl p-4 flex items-center justify-center overflow-hidden mb-6 cursor-pointer" data-quickview-area="creme-miracle-500">
+<img alt="CRÈME MIRACLE EXTRA WHITE - 500ml" class="max-h-full max-w-full object-contain" src="images/img-14.webp" width="512" height="279" decoding="async" loading="lazy">
+</div>
+<div class="text-center flex flex-col flex-grow justify-between">
+<h4 class="text-sm font-semibold tracking-wide text-stone-900 uppercase leading-snug min-h-[40px]"><button class="uppercase hover:underline underline-offset-4" data-quickview="creme-miracle-500" type="button">CRÈME MIRACLE EXTRA<br>WHITE - 500ml</button></h4>
+<div class="my-4">
+<span class="text-xl sm:text-2xl font-semibold tracking-tight text-stone-900">399,00 €</span>
+</div>
+<button class="w-full py-3 px-4 border border-stone-800 text-stone-900 hover:bg-black hover:text-white rounded-xl text-xs font-semibold tracking-wider uppercase transition duration-200" type="button" data-add-to-cart data-product="CRÈME MIRACLE EXTRA WHITE - 500ml">
+                AJOUTER AU PANIER
+              </button>
+</div>
+</div>
+<!-- Produit 2 : Crème Miracle Extra White 250ml -->
+<div class="stagger-item w-[260px] sm:w-[280px] flex-shrink-0 snap-start bg-white rounded-3xl p-6 border border-stone-200/90 shadow-md flex flex-col justify-between transition-transform duration-300 hover:-translate-y-1">
+<div class="w-full aspect-square bg-[#FAF9F5] rounded-2xl p-4 flex items-center justify-center overflow-hidden mb-6 cursor-pointer" data-quickview-area="creme-miracle-250">
+<img alt="CRÈME MIRACLE EXTRA WHITE - 250ml" class="max-h-full max-w-full object-contain" src="images/img-15.webp" width="512" height="279" decoding="async" loading="lazy">
+</div>
+<div class="text-center flex flex-col flex-grow justify-between">
+<h4 class="text-sm font-semibold tracking-wide text-stone-900 uppercase leading-snug min-h-[40px]"><button class="uppercase hover:underline underline-offset-4" data-quickview="creme-miracle-250" type="button">CRÈME MIRACLE EXTRA<br>WHITE - 250ml</button></h4>
+<div class="my-4">
+<span class="text-xl sm:text-2xl font-semibold tracking-tight text-stone-900">219,00 €</span>
+</div>
+<button class="w-full py-3 px-4 border border-stone-800 text-stone-900 hover:bg-black hover:text-white rounded-xl text-xs font-semibold tracking-wider uppercase transition duration-200" type="button" data-add-to-cart data-product="CRÈME MIRACLE EXTRA WHITE - 250ml">
+                AJOUTER AU PANIER
+              </button>
+</div>
+</div>
+<!-- Produit 3 : Savon Noir MAXI -->
+<div class="stagger-item w-[260px] sm:w-[280px] flex-shrink-0 snap-start bg-white rounded-3xl p-6 border border-stone-200/90 shadow-md flex flex-col justify-between transition-transform duration-300 hover:-translate-y-1">
+<div class="w-full aspect-square bg-[#FAF9F5] rounded-2xl p-4 flex items-center justify-center overflow-hidden mb-6 cursor-pointer" data-quickview-area="savon-noir-maxi">
+<img alt="NOUVEAU Savon Noir MAXI" class="max-h-full max-w-full object-contain" src="images/img-16.webp" width="512" height="279" decoding="async" loading="lazy">
+</div>
+<div class="text-center flex flex-col flex-grow justify-between">
+<h4 class="text-sm font-semibold tracking-wide text-stone-900 uppercase leading-snug min-h-[40px]"><button class="uppercase hover:underline underline-offset-4" data-quickview="savon-noir-maxi" type="button">NOUVEAU Savon Noir<br>MAXI</button></h4>
+<div class="my-4">
+<span class="text-xl sm:text-2xl font-semibold tracking-tight text-stone-900">30,00 €</span>
+</div>
+<button class="w-full py-3 px-4 border border-stone-800 text-stone-900 hover:bg-black hover:text-white rounded-xl text-xs font-semibold tracking-wider uppercase transition duration-200" type="button" data-add-to-cart data-product="NOUVEAU Savon Noir MAXI">
+                AJOUTER AU PANIER
+              </button>
+</div>
+</div>
+<!-- Produit 4 : Sérum Éclat Booster -->
+<div class="stagger-item w-[260px] sm:w-[280px] flex-shrink-0 snap-start bg-white rounded-3xl p-6 border border-stone-200/90 shadow-md flex flex-col justify-between transition-transform duration-300 hover:-translate-y-1">
+<div class="w-full aspect-square bg-[#FAF9F5] rounded-2xl p-4 flex items-center justify-center overflow-hidden mb-6 cursor-pointer" data-quickview-area="serum-booster-5-days">
+<img alt="Sérum Éclat Intense 5 Days" class="max-h-full max-w-full object-contain" src="images/img-17.webp" width="512" height="279" decoding="async" loading="lazy">
+</div>
+<div class="text-center flex flex-col flex-grow justify-between">
+<h4 class="text-sm font-semibold tracking-wide text-stone-900 uppercase leading-snug min-h-[40px]"><button class="uppercase hover:underline underline-offset-4" data-quickview="serum-booster-5-days" type="button">SÉRUM BOOSTER 5 DAYS<br>EXTRA ÉCLAT</button></h4>
+<div class="my-4">
+<span class="text-xl sm:text-2xl font-semibold tracking-tight text-stone-900">85,00 €</span>
+</div>
+<button class="w-full py-3 px-4 border border-stone-800 text-stone-900 hover:bg-black hover:text-white rounded-xl text-xs font-semibold tracking-wider uppercase transition duration-200" type="button" data-add-to-cart data-product="SÉRUM BOOSTER 5 DAYS EXTRA ÉCLAT">
+                AJOUTER AU PANIER
+              </button>
+</div>
+</div>
+</div>
+<!-- Retour à la grille des nuances, sous le carrousel -->
+<div class="flex justify-center px-2 pt-2 pb-1">
+<button class="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-stone-800 hover:text-amber-800 px-4 py-2 rounded-full border border-stone-300 bg-white shadow-sm hover:border-black transition duration-200 cursor-pointer flex-shrink-0" id="back-to-tones-btn" type="button">
+<svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M10 19l-7-7m0 0l7-7m-7 7h18" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+<span>Toutes les nuances</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: CategoryBrowser -->
+<!-- BEGIN: DeepDiveSpotlight -->
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16" data-purpose="product-deep-dive" id="serum-anti-taches"><div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center"><div class="flex flex-col"><span class="text-xs font-semibold uppercase tracking-widest text-amber-700 mb-2">SOIN CIBLÉ ANTI-TACHES</span><h2 class="text-3xl sm:text-5xl font-editorial font-normal tracking-tight text-stone-950 mb-3">Sérum Anti-Taches Belle Nubian</h2><p class="text-sm text-stone-600 max-w-md font-light leading-relaxed mb-4">Ciblez les taches tenaces et les zones sombres avec une formule hautement concentrée, conçue pour un teint unifié, lumineux et intensément hydraté.</p><div class="block lg:hidden relative flex items-center justify-center min-h-[420px] sm:min-h-[480px] my-4"><div class="absolute w-[80%] aspect-[4/5] bg-stone-300/70 rounded-3xl -translate-x-8 -rotate-3 blur-[0.5px]"></div><div class="absolute w-[80%] aspect-[4/5] bg-stone-300/70 rounded-3xl translate-x-8 rotate-3 blur-[0.5px]"></div><div class="relative w-[82%] aspect-[4/5] bg-[#EAE8E2] rounded-3xl overflow-hidden shadow-2xl border border-white/60"><img alt="Présentation Sérum Anti-Taches Belle Nubian" class="w-full h-full object-cover" src="images/serum-anti-taches.webp" width="1380" height="752" decoding="async" loading="lazy"></div></div><div class="w-full mb-8 border border-stone-200 rounded-xl overflow-hidden bg-white/70 shadow-sm mt-2" data-purpose="benefits-matrix"><table class="w-full text-left text-xs sm:text-sm"><thead class="bg-stone-100 text-stone-900 border-b border-stone-200 font-semibold uppercase tracking-wider text-[11px]"><tr><th class="py-3 px-4 w-5/12 border-r border-stone-200">Problèmes ciblés</th><th class="py-3 px-4 w-7/12">Bénéfices</th></tr></thead><tbody class="divide-y divide-stone-200 text-stone-700"><tr class="hover:bg-stone-50/70 transition"><td class="py-3 px-4 font-medium text-stone-900 border-r border-stone-200">Taches brunes &amp; hyperpigmentation</td><td class="py-3 px-4 font-light">Atténue visiblement les taches pigmentaires tenaces</td></tr><tr class="hover:bg-stone-50/70 transition"><td class="py-3 px-4 font-medium text-stone-900 border-r border-stone-200">Teint irrégulier</td><td class="py-3 px-4 font-light">Révèle un teint homogène et éclatant</td></tr><tr class="hover:bg-stone-50/70 transition"><td class="py-3 px-4 font-medium text-stone-900 border-r border-stone-200">Hyperpigmentation</td><td class="py-3 px-4 font-light">Aide à estomper les décolorations et zones sombres</td></tr><tr class="hover:bg-stone-50/70 transition"><td class="py-3 px-4 font-medium text-stone-900 border-r border-stone-200">Peau sèche et rugueuse</td><td class="py-3 px-4 font-light">Hydrate, adoucit et lisse la peau en profondeur</td></tr><tr class="hover:bg-stone-50/70 transition"><td class="py-3 px-4 font-medium text-stone-900 border-r border-stone-200">Agressions extérieures</td><td class="py-3 px-4 font-light">Riche en antioxydants pour protéger et fortifier la barrière cutanée</td></tr></tbody></table></div><div class="flex items-center space-x-6"><button class="px-8 py-3.5 bg-black text-white rounded-full text-sm font-medium hover:bg-stone-800 transition tracking-wide shadow-md" type="button" data-add-to-cart data-product="Sérum Anti-Taches Belle Nubian">Commander</button><div class="flex items-baseline space-x-2"><span class="text-2xl font-bold text-stone-900">24,49 €</span><span class="text-sm text-stone-500 line-through">79,00 €</span></div></div></div><div class="hidden lg:flex relative items-center justify-center min-h-[480px]"><div class="absolute w-[80%] aspect-[4/5] bg-stone-300/70 rounded-3xl -translate-x-8 -rotate-3 blur-[0.5px]"></div><div class="absolute w-[80%] aspect-[4/5] bg-stone-300/70 rounded-3xl translate-x-8 rotate-3 blur-[0.5px]"></div><div class="relative w-[82%] aspect-[4/5] bg-[#EAE8E2] rounded-3xl overflow-hidden shadow-2xl border border-white/60"><img alt="Présentation Sérum Anti-Taches Belle Nubian" class="w-full h-full object-cover" src="images/serum-anti-taches.webp" width="1380" height="752" decoding="async" loading="lazy"></div></div></div></section>
+<!-- END: DeepDiveSpotlight -->
+<!-- BEGIN: CatalogNewProducts -->
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16" data-purpose="product-catalog-grid" id="new-products">
+<!-- Section Header -->
+<div class="flex items-center justify-between mb-10">
+<div>
+<h2 class="text-2xl sm:text-3xl font-editorial font-normal tracking-tight text-stone-900">
+            Nouveautés <span class="text-stone-500 font-sans text-lg">(4 264)</span>
+</h2>
+</div>
+<a class="px-5 py-2 rounded-full border border-stone-300 text-xs font-medium text-stone-700 hover:bg-black hover:text-white hover:border-black transition" href="produits.html">
+          Voir tout
+        </a>
+</div>
+<!-- 8-Card Responsive Grid (4 columns x 2 rows) -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
+<!-- Product 1 -->
+<article class="group flex flex-col" data-purpose="product-item">
+<div class="relative aspect-[4/5] bg-[#E8E6DF] rounded-2xl overflow-hidden border border-stone-200/60 card-hover-zoom cursor-pointer" data-quickview-area="creme-jour-contour-yeux">
+<span class="absolute top-3 right-3 z-10 bg-black text-white text-[10px] font-semibold px-2 py-0.5 rounded-full">-20%</span>
+<img alt="Crème de Nuit Réparatrice" class="w-full h-full object-cover" src="images/img-19.webp" width="512" height="512" decoding="async" loading="lazy">
+<img alt="" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 group-focus-within:opacity-100" decoding="async" height="993" loading="lazy" src="images/packshot-img-19.webp" width="800">
+<!-- Actions rapides : favoris, fiche produit, panier -->
+<div class="absolute inset-x-0 bottom-3 z-10 flex justify-center gap-2 opacity-100 lg:opacity-0 lg:group-hover:opacity-100 lg:group-focus-within:opacity-100 transition duration-300">
+<button aria-label="Ajouter « Crème Jour &amp; Contour des Yeux Oxygénant » aux favoris" aria-pressed="false" class="w-9 h-9 rounded-full bg-white text-stone-800 flex items-center justify-center shadow-md hover:bg-black hover:text-white transition aria-pressed:text-rose-700" data-wishlist="creme-jour-contour-yeux" type="button"><svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+<button aria-label="Aperçu rapide de « Crème Jour &amp; Contour des Yeux Oxygénant »" class="w-9 h-9 rounded-full bg-white text-stone-800 flex items-center justify-center shadow-md hover:bg-black hover:text-white transition" data-quickview="creme-jour-contour-yeux" type="button"><svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" stroke-linecap="round" stroke-linejoin="round"></path><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+<button aria-label="Ajouter « Crème Jour &amp; Contour des Yeux Oxygénant » au panier" class="w-9 h-9 rounded-full bg-white text-stone-800 flex items-center justify-center shadow-md hover:bg-black hover:text-white transition" data-add-to-cart data-product="Crème Jour &amp; Contour des Yeux Oxygénant" type="button"><svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 4.5v15m7.5-7.5h-15" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+</div>
+</div>
+<div class="mt-3">
+<h3 class="text-xs sm:text-sm font-medium text-stone-900 line-clamp-1"><button class="text-left hover:underline underline-offset-4" data-quickview="creme-jour-contour-yeux" type="button">Crème Jour &amp; Contour des Yeux Oxygénant</button></h3>
+<div class="mt-1 flex items-center space-x-2">
+<span class="text-sm font-semibold text-stone-900">24,49 €</span>
+<span class="text-xs text-stone-500 line-through">79,00 €</span>
+</div>
+<div class="mt-1.5 min-h-[18px]" data-stars="creme-jour-contour-yeux"></div>
+</div>
+</article>
+<!-- Product 2 -->
+<article class="group flex flex-col" data-purpose="product-item">
+<div class="relative aspect-[4/5] bg-[#E8E6DF] rounded-2xl overflow-hidden border border-stone-200/60 card-hover-zoom cursor-pointer" data-quickview-area="serum-vitamine-c">
+<img alt="Sérum Régénérant Éclat" class="w-full h-full object-cover" src="images/img-20.webp" width="512" height="512" decoding="async" loading="lazy">
+<img alt="" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 group-focus-within:opacity-100" decoding="async" height="993" loading="lazy" src="images/packshot-img-20.webp" width="800">
+<!-- Actions rapides : favoris, fiche produit, panier -->
+<div class="absolute inset-x-0 bottom-3 z-10 flex justify-center gap-2 opacity-100 lg:opacity-0 lg:group-hover:opacity-100 lg:group-focus-within:opacity-100 transition duration-300">
+<button aria-label="Ajouter « Sérum Régénérant Botanique &amp; Vitamine C » aux favoris" aria-pressed="false" class="w-9 h-9 rounded-full bg-white text-stone-800 flex items-center justify-center shadow-md hover:bg-black hover:text-white transition aria-pressed:text-rose-700" data-wishlist="serum-vitamine-c" type="button"><svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+<button aria-label="Aperçu rapide de « Sérum Régénérant Botanique &amp; Vitamine C »" class="w-9 h-9 rounded-full bg-white text-stone-800 flex items-center justify-center shadow-md hover:bg-black hover:text-white transition" data-quickview="serum-vitamine-c" type="button"><svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" stroke-linecap="round" stroke-linejoin="round"></path><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+<button aria-label="Ajouter « Sérum Régénérant Botanique &amp; Vitamine C » au panier" class="w-9 h-9 rounded-full bg-white text-stone-800 flex items-center justify-center shadow-md hover:bg-black hover:text-white transition" data-add-to-cart data-product="Sérum Régénérant Botanique &amp; Vitamine C" type="button"><svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 4.5v15m7.5-7.5h-15" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+</div>
+</div>
+<div class="mt-3">
+<h3 class="text-xs sm:text-sm font-medium text-stone-900 line-clamp-1"><button class="text-left hover:underline underline-offset-4" data-quickview="serum-vitamine-c" type="button">Sérum Régénérant Botanique &amp; Vitamine C</button></h3>
+<div class="mt-1 flex items-center space-x-2">
+<span class="text-sm font-semibold text-stone-900">24,49 €</span>
+<span class="text-xs text-stone-500 line-through">79,00 €</span>
+</div>
+<div class="mt-1.5 min-h-[18px]" data-stars="serum-vitamine-c"></div>
+</div>
+</article>
+<!-- Product 3 -->
+<article class="group flex flex-col" data-purpose="product-item">
+<div class="relative aspect-[4/5] bg-[#E8E6DF] rounded-2xl overflow-hidden border border-stone-200/60 card-hover-zoom cursor-pointer" data-quickview-area="coffret-oxygenant">
+<span class="absolute top-3 right-3 z-10 bg-black text-white text-[10px] font-semibold px-2 py-0.5 rounded-full">-20%</span>
+<img alt="Coffret Soin Visage Oxygénant" class="w-full h-full object-cover" src="images/img-21.webp" width="512" height="512" decoding="async" loading="lazy">
+<img alt="" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 group-focus-within:opacity-100" decoding="async" height="993" loading="lazy" src="images/packshot-img-21.webp" width="800">
+<!-- Actions rapides : favoris, fiche produit, panier -->
+<div class="absolute inset-x-0 bottom-3 z-10 flex justify-center gap-2 opacity-100 lg:opacity-0 lg:group-hover:opacity-100 lg:group-focus-within:opacity-100 transition duration-300">
+<button aria-label="Ajouter « Coffret Sérum &amp; Crème Oxygénante » aux favoris" aria-pressed="false" class="w-9 h-9 rounded-full bg-white text-stone-800 flex items-center justify-center shadow-md hover:bg-black hover:text-white transition aria-pressed:text-rose-700" data-wishlist="coffret-oxygenant" type="button"><svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+<button aria-label="Aperçu rapide de « Coffret Sérum &amp; Crème Oxygénante »" class="w-9 h-9 rounded-full bg-white text-stone-800 flex items-center justify-center shadow-md hover:bg-black hover:text-white transition" data-quickview="coffret-oxygenant" type="button"><svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" stroke-linecap="round" stroke-linejoin="round"></path><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+<button aria-label="Ajouter « Coffret Sérum &amp; Crème Oxygénante » au panier" class="w-9 h-9 rounded-full bg-white text-stone-800 flex items-center justify-center shadow-md hover:bg-black hover:text-white transition" data-add-to-cart data-product="Coffret Sérum &amp; Crème Oxygénante" type="button"><svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 4.5v15m7.5-7.5h-15" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+</div>
+</div>
+<div class="mt-3">
+<h3 class="text-xs sm:text-sm font-medium text-stone-900 line-clamp-1"><button class="text-left hover:underline underline-offset-4" data-quickview="coffret-oxygenant" type="button">Coffret Sérum &amp; Crème Oxygénante</button></h3>
+<div class="mt-1 flex items-center space-x-2">
+<span class="text-sm font-semibold text-stone-900">24,49 €</span>
+<span class="text-xs text-stone-500 line-through">79,00 €</span>
+</div>
+<div class="mt-1.5 min-h-[18px]" data-stars="coffret-oxygenant"></div>
+</div>
+</article>
+<!-- Product 4 -->
+<article class="group flex flex-col" data-purpose="product-item">
+<div class="relative aspect-[4/5] bg-[#E8E6DF] rounded-2xl overflow-hidden border border-stone-200/60 card-hover-zoom cursor-pointer" data-quickview-area="emulsion-nuit">
+<span class="absolute top-3 right-3 z-10 bg-black text-white text-[10px] font-semibold px-2 py-0.5 rounded-full">-20%</span>
+<img alt="Crème Nuit Réparatrice en Écrin" class="w-full h-full object-cover" src="images/img-22.webp" width="512" height="512" decoding="async" loading="lazy">
+<img alt="" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 group-focus-within:opacity-100" decoding="async" height="993" loading="lazy" src="images/packshot-img-22.webp" width="800">
+<!-- Actions rapides : favoris, fiche produit, panier -->
+<div class="absolute inset-x-0 bottom-3 z-10 flex justify-center gap-2 opacity-100 lg:opacity-0 lg:group-hover:opacity-100 lg:group-focus-within:opacity-100 transition duration-300">
+<button aria-label="Ajouter « Émulsion Nuit Réparatrice Cellulaire » aux favoris" aria-pressed="false" class="w-9 h-9 rounded-full bg-white text-stone-800 flex items-center justify-center shadow-md hover:bg-black hover:text-white transition aria-pressed:text-rose-700" data-wishlist="emulsion-nuit" type="button"><svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+<button aria-label="Aperçu rapide de « Émulsion Nuit Réparatrice Cellulaire »" class="w-9 h-9 rounded-full bg-white text-stone-800 flex items-center justify-center shadow-md hover:bg-black hover:text-white transition" data-quickview="emulsion-nuit" type="button"><svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" stroke-linecap="round" stroke-linejoin="round"></path><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+<button aria-label="Ajouter « Émulsion Nuit Réparatrice Cellulaire » au panier" class="w-9 h-9 rounded-full bg-white text-stone-800 flex items-center justify-center shadow-md hover:bg-black hover:text-white transition" data-add-to-cart data-product="Émulsion Nuit Réparatrice Cellulaire" type="button"><svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 4.5v15m7.5-7.5h-15" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+</div>
+</div>
+<div class="mt-3">
+<h3 class="text-xs sm:text-sm font-medium text-stone-900 line-clamp-1"><button class="text-left hover:underline underline-offset-4" data-quickview="emulsion-nuit" type="button">Émulsion Nuit Réparatrice Cellulaire</button></h3>
+<div class="mt-1 flex items-center space-x-2">
+<span class="text-sm font-semibold text-stone-900">24,49 €</span>
+<span class="text-xs text-stone-500 line-through">79,00 €</span>
+</div>
+<div class="mt-1.5 min-h-[18px]" data-stars="emulsion-nuit"></div>
+</div>
+</article>
+<!-- Product 5 -->
+<article class="group flex flex-col" data-purpose="product-item">
+<div class="relative aspect-[4/5] bg-[#E8E6DF] rounded-2xl overflow-hidden border border-stone-200/60 card-hover-zoom cursor-pointer" data-quickview-area="creme-barriere">
+<span class="absolute top-3 right-3 z-10 bg-black text-white text-[10px] font-semibold px-2 py-0.5 rounded-full">-20%</span>
+<img alt="Crème Jour Hydratation Maximale" class="w-full h-full object-cover" src="images/img-19.webp" width="512" height="512" decoding="async" loading="lazy">
+<img alt="" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 group-focus-within:opacity-100" decoding="async" height="993" loading="lazy" src="images/packshot-img-19.webp" width="800">
+<!-- Actions rapides : favoris, fiche produit, panier -->
+<div class="absolute inset-x-0 bottom-3 z-10 flex justify-center gap-2 opacity-100 lg:opacity-0 lg:group-hover:opacity-100 lg:group-focus-within:opacity-100 transition duration-300">
+<button aria-label="Ajouter « Crème de Jour Barrière Protectrice » aux favoris" aria-pressed="false" class="w-9 h-9 rounded-full bg-white text-stone-800 flex items-center justify-center shadow-md hover:bg-black hover:text-white transition aria-pressed:text-rose-700" data-wishlist="creme-barriere" type="button"><svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+<button aria-label="Aperçu rapide de « Crème de Jour Barrière Protectrice »" class="w-9 h-9 rounded-full bg-white text-stone-800 flex items-center justify-center shadow-md hover:bg-black hover:text-white transition" data-quickview="creme-barriere" type="button"><svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" stroke-linecap="round" stroke-linejoin="round"></path><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+<button aria-label="Ajouter « Crème de Jour Barrière Protectrice » au panier" class="w-9 h-9 rounded-full bg-white text-stone-800 flex items-center justify-center shadow-md hover:bg-black hover:text-white transition" data-add-to-cart data-product="Crème de Jour Barrière Protectrice" type="button"><svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 4.5v15m7.5-7.5h-15" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+</div>
+</div>
+<div class="mt-3">
+<h3 class="text-xs sm:text-sm font-medium text-stone-900 line-clamp-1"><button class="text-left hover:underline underline-offset-4" data-quickview="creme-barriere" type="button">Crème de Jour Barrière Protectrice</button></h3>
+<div class="mt-1 flex items-center space-x-2">
+<span class="text-sm font-semibold text-stone-900">24,49 €</span>
+<span class="text-xs text-stone-500 line-through">79,00 €</span>
+</div>
+<div class="mt-1.5 min-h-[18px]" data-stars="creme-barriere"></div>
+</div>
+</article>
+<!-- Product 6 -->
+<article class="group flex flex-col" data-purpose="product-item">
+<div class="relative aspect-[4/5] bg-[#E8E6DF] rounded-2xl overflow-hidden border border-stone-200/60 card-hover-zoom cursor-pointer" data-quickview-area="serum-anti-rides">
+<img alt="Sérum Régénérant" class="w-full h-full object-cover" src="images/img-20.webp" width="512" height="512" decoding="async" loading="lazy">
+<img alt="" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 group-focus-within:opacity-100" decoding="async" height="993" loading="lazy" src="images/packshot-img-20.webp" width="800">
+<!-- Actions rapides : favoris, fiche produit, panier -->
+<div class="absolute inset-x-0 bottom-3 z-10 flex justify-center gap-2 opacity-100 lg:opacity-0 lg:group-hover:opacity-100 lg:group-focus-within:opacity-100 transition duration-300">
+<button aria-label="Ajouter « Sérum Anti-Rides Repulpant Intense » aux favoris" aria-pressed="false" class="w-9 h-9 rounded-full bg-white text-stone-800 flex items-center justify-center shadow-md hover:bg-black hover:text-white transition aria-pressed:text-rose-700" data-wishlist="serum-anti-rides" type="button"><svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+<button aria-label="Aperçu rapide de « Sérum Anti-Rides Repulpant Intense »" class="w-9 h-9 rounded-full bg-white text-stone-800 flex items-center justify-center shadow-md hover:bg-black hover:text-white transition" data-quickview="serum-anti-rides" type="button"><svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" stroke-linecap="round" stroke-linejoin="round"></path><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+<button aria-label="Ajouter « Sérum Anti-Rides Repulpant Intense » au panier" class="w-9 h-9 rounded-full bg-white text-stone-800 flex items-center justify-center shadow-md hover:bg-black hover:text-white transition" data-add-to-cart data-product="Sérum Anti-Rides Repulpant Intense" type="button"><svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 4.5v15m7.5-7.5h-15" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+</div>
+</div>
+<div class="mt-3">
+<h3 class="text-xs sm:text-sm font-medium text-stone-900 line-clamp-1"><button class="text-left hover:underline underline-offset-4" data-quickview="serum-anti-rides" type="button">Sérum Anti-Rides Repulpant Intense</button></h3>
+<div class="mt-1 flex items-center space-x-2">
+<span class="text-sm font-semibold text-stone-900">24,49 €</span>
+<span class="text-xs text-stone-500 line-through">79,00 €</span>
+</div>
+<div class="mt-1.5 min-h-[18px]" data-stars="serum-anti-rides"></div>
+</div>
+</article>
+<!-- Product 7 -->
+<article class="group flex flex-col" data-purpose="product-item">
+<div class="relative aspect-[4/5] bg-[#E8E6DF] rounded-2xl overflow-hidden border border-stone-200/60 card-hover-zoom cursor-pointer" data-quickview-area="duo-eclat">
+<img alt="Soin Yeux et Teint" class="w-full h-full object-cover" src="images/img-21.webp" width="512" height="512" decoding="async" loading="lazy">
+<img alt="" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 group-focus-within:opacity-100" decoding="async" height="993" loading="lazy" src="images/packshot-img-21.webp" width="800">
+<!-- Actions rapides : favoris, fiche produit, panier -->
+<div class="absolute inset-x-0 bottom-3 z-10 flex justify-center gap-2 opacity-100 lg:opacity-0 lg:group-hover:opacity-100 lg:group-focus-within:opacity-100 transition duration-300">
+<button aria-label="Ajouter « Duo Éclat Regard &amp; Teint Lumineux » aux favoris" aria-pressed="false" class="w-9 h-9 rounded-full bg-white text-stone-800 flex items-center justify-center shadow-md hover:bg-black hover:text-white transition aria-pressed:text-rose-700" data-wishlist="duo-eclat" type="button"><svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+<button aria-label="Aperçu rapide de « Duo Éclat Regard &amp; Teint Lumineux »" class="w-9 h-9 rounded-full bg-white text-stone-800 flex items-center justify-center shadow-md hover:bg-black hover:text-white transition" data-quickview="duo-eclat" type="button"><svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" stroke-linecap="round" stroke-linejoin="round"></path><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+<button aria-label="Ajouter « Duo Éclat Regard &amp; Teint Lumineux » au panier" class="w-9 h-9 rounded-full bg-white text-stone-800 flex items-center justify-center shadow-md hover:bg-black hover:text-white transition" data-add-to-cart data-product="Duo Éclat Regard &amp; Teint Lumineux" type="button"><svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 4.5v15m7.5-7.5h-15" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+</div>
+</div>
+<div class="mt-3">
+<h3 class="text-xs sm:text-sm font-medium text-stone-900 line-clamp-1"><button class="text-left hover:underline underline-offset-4" data-quickview="duo-eclat" type="button">Duo Éclat Regard &amp; Teint Lumineux</button></h3>
+<div class="mt-1 flex items-center space-x-2">
+<span class="text-sm font-semibold text-stone-900">24,49 €</span>
+<span class="text-xs text-stone-500 line-through">79,00 €</span>
+</div>
+<div class="mt-1.5 min-h-[18px]" data-stars="duo-eclat"></div>
+</div>
+</article>
+<!-- Product 8 -->
+<article class="group flex flex-col" data-purpose="product-item">
+<div class="relative aspect-[4/5] bg-[#E8E6DF] rounded-2xl overflow-hidden border border-stone-200/60 card-hover-zoom cursor-pointer" data-quickview-area="baume-nuit">
+<img alt="Crème Nuit Réparatrice" class="w-full h-full object-cover" src="images/img-22.webp" width="512" height="512" decoding="async" loading="lazy">
+<img alt="" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 group-focus-within:opacity-100" decoding="async" height="993" loading="lazy" src="images/packshot-img-22.webp" width="800">
+<!-- Actions rapides : favoris, fiche produit, panier -->
+<div class="absolute inset-x-0 bottom-3 z-10 flex justify-center gap-2 opacity-100 lg:opacity-0 lg:group-hover:opacity-100 lg:group-focus-within:opacity-100 transition duration-300">
+<button aria-label="Ajouter « Baume Régénérant Nuit Éclat Pur » aux favoris" aria-pressed="false" class="w-9 h-9 rounded-full bg-white text-stone-800 flex items-center justify-center shadow-md hover:bg-black hover:text-white transition aria-pressed:text-rose-700" data-wishlist="baume-nuit" type="button"><svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+<button aria-label="Aperçu rapide de « Baume Régénérant Nuit Éclat Pur »" class="w-9 h-9 rounded-full bg-white text-stone-800 flex items-center justify-center shadow-md hover:bg-black hover:text-white transition" data-quickview="baume-nuit" type="button"><svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" stroke-linecap="round" stroke-linejoin="round"></path><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+<button aria-label="Ajouter « Baume Régénérant Nuit Éclat Pur » au panier" class="w-9 h-9 rounded-full bg-white text-stone-800 flex items-center justify-center shadow-md hover:bg-black hover:text-white transition" data-add-to-cart data-product="Baume Régénérant Nuit Éclat Pur" type="button"><svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 4.5v15m7.5-7.5h-15" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+</div>
+</div>
+<div class="mt-3">
+<h3 class="text-xs sm:text-sm font-medium text-stone-900 line-clamp-1"><button class="text-left hover:underline underline-offset-4" data-quickview="baume-nuit" type="button">Baume Régénérant Nuit Éclat Pur</button></h3>
+<div class="mt-1 flex items-center space-x-2">
+<span class="text-sm font-semibold text-stone-900">24,49 €</span>
+<span class="text-xs text-stone-500 line-through">79,00 €</span>
+</div>
+<div class="mt-1.5 min-h-[18px]" data-stars="baume-nuit"></div>
+</div>
+</article>
+</div>
+</section>
+<!-- END: CatalogNewProducts -->
+<!-- BEGIN: SummerSalePromo -->
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16" data-purpose="promo-banner" id="sale">
+<div class="bg-[#E4E1D7] rounded-3xl p-8 sm:p-12 lg:p-14 border border-stone-300 relative overflow-hidden flex flex-col gap-8">
+<!-- Top Header Row -->
+<div class="flex flex-col md:flex-row items-start md:items-end justify-between gap-6 z-10 relative">
+<div class="max-w-md">
+<span class="text-xs font-semibold tracking-widest uppercase text-stone-600 block mb-2">Ventes Privées d'Été !</span>
+<h2 class="text-4xl sm:text-6xl font-editorial font-normal text-stone-950 tracking-tight leading-none mb-6">
+        Jusqu'à <span class="italic font-medium">-40%</span> de réduction
+</h2>
+<a class="inline-flex items-center px-8 py-3.5 bg-black text-white rounded-full text-xs sm:text-sm font-medium hover:bg-stone-800 transition shadow-md" href="#new-products">
+        Profiter des soldes
+      </a>
+</div>
+<div class="flex flex-col items-start md:items-end justify-between gap-4">
+<span class="text-xs text-stone-600 font-light tracking-wide">
+        *Offre valable jusqu'au 15 mars 2025. Voir conditions.
+      </span>
+<div class="flex md:hidden items-center space-x-2">
+<button aria-label="Produits soldés précédents" class="w-10 h-10 rounded-full border border-stone-400/80 bg-white/40 hover:bg-black hover:text-white flex items-center justify-center transition cursor-pointer shadow-sm" id="sale-carousel-prev" type="button">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 19l-7-7 7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+</button>
+<button aria-label="Produits soldés suivants" class="w-10 h-10 rounded-full border border-stone-400/80 bg-white/40 hover:bg-black hover:text-white flex items-center justify-center transition cursor-pointer shadow-sm" id="sale-carousel-next" type="button">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+</button>
+</div>
+</div>
+</div>
+<!-- 2-Card Carousel Showcase -->
+<div class="z-10 relative overflow-hidden">
+<div class="flex overflow-x-auto snap-x snap-mandatory gap-4 pb-2 hide-scrollbar scroll-smooth md:grid md:grid-cols-2 md:gap-6 md:overflow-visible" id="sale-carousel-track"><div class="w-[280px] sm:w-[320px] md:w-auto flex-shrink-0 snap-start bg-white/80 backdrop-blur-sm rounded-2xl p-4 sm:p-5 border border-stone-200/80 flex flex-col sm:flex-row gap-4 items-center shadow-sm hover:shadow-md transition"><div class="w-full sm:w-40 aspect-[4/5] sm:aspect-square bg-[#E8E6DF] rounded-xl overflow-hidden relative flex-shrink-0 cursor-pointer" data-quickview-area="creme-jour-ultra"><span class="absolute top-2.5 right-2.5 z-10 bg-black text-white text-[10px] font-semibold px-2 py-0.5 rounded-full">-40%</span><img alt="Crème de Jour Ultra Réparatrice" class="w-full h-full object-cover" src="images/img-19.webp" width="512" height="512" decoding="async" loading="lazy"></div><div class="flex flex-col justify-between flex-grow w-full py-1"><div><div class="flex items-center justify-between gap-2 mb-1.5"><span class="text-[11px] font-semibold uppercase tracking-wider text-stone-500">Hydratation</span><div data-stars="creme-jour-ultra"></div></div><h3 class="text-base sm:text-lg font-editorial font-medium text-stone-950 leading-snug mb-1.5"><button class="text-left hover:underline underline-offset-4" data-quickview="creme-jour-ultra" type="button">Crème de Jour Ultra Réparatrice</button></h3><p class="text-xs text-stone-600 line-clamp-2 font-light leading-relaxed mb-3">Nutrition intense et hydratation quotidienne avec protection antioxydante.</p></div><div class="flex items-center justify-between pt-2 border-t border-stone-200/70"><div class="flex items-baseline gap-2"><span class="text-base font-bold text-stone-900">29,40 €</span><span class="text-xs text-stone-500 line-through">49,00 €</span></div><button class="px-3.5 py-1.5 bg-stone-900 text-white rounded-full text-xs font-medium hover:bg-stone-700 transition" data-add-to-cart data-product="Crème de Jour Ultra Réparatrice">Ajouter au panier</button></div></div></div><div class="w-[280px] sm:w-[320px] md:w-auto flex-shrink-0 snap-start bg-white/80 backdrop-blur-sm rounded-2xl p-4 sm:p-5 border border-stone-200/80 flex flex-col sm:flex-row gap-4 items-center shadow-sm hover:shadow-md transition"><div class="w-full sm:w-40 aspect-[4/5] sm:aspect-square bg-[#E8E6DF] rounded-xl overflow-hidden relative flex-shrink-0 cursor-pointer" data-quickview-area="savon-charbon"><span class="absolute top-2.5 right-2.5 z-10 bg-black text-white text-[10px] font-semibold px-2 py-0.5 rounded-full">-40%</span><img alt="Savon Noir au Charbon Actif Bio" class="w-full h-full object-cover" src="images/img-16.webp" width="512" height="279" decoding="async" loading="lazy"></div><div class="flex flex-col justify-between flex-grow w-full py-1"><div><div class="flex items-center justify-between gap-2 mb-1.5"><span class="text-[11px] font-semibold uppercase tracking-wider text-stone-500">Nettoyants</span><div data-stars="savon-charbon"></div></div><h3 class="text-base sm:text-lg font-editorial font-medium text-stone-950 leading-snug mb-1.5"><button class="text-left hover:underline underline-offset-4" data-quickview="savon-charbon" type="button">Savon Noir au Charbon Actif Bio</button></h3><p class="text-xs text-stone-600 line-clamp-2 font-light leading-relaxed mb-3">Détoxification profonde des pores enrichie en extraits botaniques bio.</p></div><div class="flex items-center justify-between pt-2 border-t border-stone-200/70"><div class="flex items-baseline gap-2"><span class="text-base font-bold text-stone-900">23,40 €</span><span class="text-xs text-stone-500 line-through">39,00 €</span></div><button class="px-3.5 py-1.5 bg-stone-900 text-white rounded-full text-xs font-medium hover:bg-stone-700 transition" data-add-to-cart data-product="Savon Noir au Charbon Actif Bio">Ajouter au panier</button></div></div></div></div>
+</div>
+<!-- Ambient background glow -->
+<div class="absolute -right-20 -bottom-20 w-96 h-96 bg-[#ded9cc] rounded-full blur-3xl pointer-events-none"></div>
+</div>
+</section>
+<!-- END: SummerSalePromo -->
+<!-- BEGIN: TrustAndBadges -->
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16" data-purpose="value-badges">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-6 lg:gap-8">
+<!-- Badge 1 -->
+<div class="flex items-center space-x-3.5">
+<div class="w-10 h-10 rounded-full bg-stone-200/80 flex items-center justify-center text-stone-700 flex-shrink-0">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.25V3.75m0 3.75h4.5m-4.5 0H9m0 0V3.75m0 3.75H4.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+</div>
+<div>
+<div class="text-xs sm:text-sm font-semibold text-stone-900">Livraison Gratuite</div>
+<div class="text-[11px] text-stone-500">Dès 75 € d'achat</div>
+</div>
+</div>
+<!-- Badge 2 -->
+<div class="flex items-center space-x-3.5">
+<div class="w-10 h-10 rounded-full bg-stone-200/80 flex items-center justify-center text-stone-700 flex-shrink-0">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+</div>
+<div>
+<div class="text-xs sm:text-sm font-semibold text-stone-900">Retours Gratuits</div>
+<div class="text-[11px] text-stone-500">Sous 14 jours</div>
+</div>
+</div>
+<!-- Badge 3 -->
+<div class="flex items-center space-x-3.5">
+<div class="w-10 h-10 rounded-full bg-stone-200/80 flex items-center justify-center text-stone-700 flex-shrink-0">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3.8-3.04a17.433 17.433 0 00-6.15 0L4.5 20.25v-3.091c-.34-.02-.68-.045-1.02-.072C2.347 16.994 1.5 16.03 1.5 14.894V10.608c0-.969.616-1.813 1.5-2.097" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+</div>
+<div>
+<div class="text-xs sm:text-sm font-semibold text-stone-900">Service Client</div>
+<div class="text-[11px] text-stone-500">Disponible 7j/7</div>
+</div>
+</div>
+<!-- Badge 4 -->
+<div class="flex items-center space-x-3.5">
+<div class="w-10 h-10 rounded-full bg-stone-200/80 flex items-center justify-center text-stone-700 flex-shrink-0">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+</div>
+<div>
+<div class="text-xs sm:text-sm font-semibold text-stone-900">Paiement Sécurisé</div>
+<div class="text-[11px] text-stone-500">Transactions 100% cryptées</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: TrustAndBadges -->
+<!-- BEGIN: ReviewsSection -->
+<section class="relative w-full py-12 sm:py-16 text-center" data-purpose="customer-reviews">
+<div class="max-w-4xl mx-auto px-4 sm:px-6">
+<div class="flex items-center justify-center space-x-3 mb-4">
+<span class="text-xs font-semibold uppercase tracking-widest text-stone-500">Avis Clients</span>
+</div>
+<h2 class="text-xl font-medium tracking-tight text-stone-800 mb-10">
+        Avis vérifiés <span class="font-editorial italic font-normal text-stone-500">(264)</span>
+</h2>
+<!-- Carrousel d'avis : les slides sont superposées dans la même cellule de grille (hauteur stable) -->
+<!-- TODO : avis 2 à 4 = textes de démonstration, à remplacer par de vrais avis vérifiés avant mise en ligne -->
+<div aria-label="Avis clients" aria-roledescription="carrousel" class="px-8 sm:px-0" id="reviews-carousel">
+<div class="grid">
+<figure aria-roledescription="avis" class="[grid-area:1/1] transition-opacity duration-300 ease-out" data-review>
+<blockquote class="text-xl sm:text-2xl lg:text-3xl font-normal text-stone-900 leading-relaxed font-editorial">
+          “La meilleure formule de soin que j'ai pu tester, un teint éclatant en seulement 7 jours. Les résultats dépassent de loin les alternatives médicales.”
+        </blockquote>
+<figcaption>
+<div aria-label="Note : 5 sur 5" class="mt-6 flex justify-center items-center text-amber-600 tracking-widest text-base" role="img">★★★★★</div>
+<p class="mt-2 text-xs uppercase tracking-widest font-semibold text-stone-500">Camille L. — Achat vérifié, Lyon</p>
+</figcaption>
+</figure>
+<figure aria-roledescription="avis" class="[grid-area:1/1] transition-opacity duration-300 ease-out" data-review>
+<blockquote class="text-xl sm:text-2xl lg:text-3xl font-normal text-stone-900 leading-relaxed font-editorial">
+          “Une texture fondante qui pénètre sans laisser de film gras. Mon teint paraît plus uniforme et ma peau reste douce toute la journée.”
+        </blockquote>
+<figcaption>
+<div aria-label="Note : 5 sur 5" class="mt-6 flex justify-center items-center text-amber-600 tracking-widest text-base" role="img">★★★★★</div>
+<p class="mt-2 text-xs uppercase tracking-widest font-semibold text-stone-500">Aïssatou D. — Achat vérifié, Paris</p>
+</figcaption>
+</figure>
+<figure aria-roledescription="avis" class="[grid-area:1/1] transition-opacity duration-300 ease-out" data-review>
+<blockquote class="text-xl sm:text-2xl lg:text-3xl font-normal text-stone-900 leading-relaxed font-editorial">
+          “Enfin une routine pensée pour ma carnation. Le sérum s'intègre parfaitement à mes soins du soir et le parfum est très léger.”
+        </blockquote>
+<figcaption>
+<div aria-label="Note : 5 sur 5" class="mt-6 flex justify-center items-center text-amber-600 tracking-widest text-base" role="img">★★★★★</div>
+<p class="mt-2 text-xs uppercase tracking-widest font-semibold text-stone-500">Inès M. — Achat vérifié, Marseille</p>
+</figcaption>
+</figure>
+<figure aria-roledescription="avis" class="[grid-area:1/1] transition-opacity duration-300 ease-out" data-review>
+<blockquote class="text-xl sm:text-2xl lg:text-3xl font-normal text-stone-900 leading-relaxed font-editorial">
+          “Livraison rapide, emballage soigné et un service client à l'écoute. Le coffret est devenu mon cadeau préféré à offrir.”
+        </blockquote>
+<figcaption>
+<div aria-label="Note : 4 sur 5" class="mt-6 flex justify-center items-center text-amber-600 tracking-widest text-base" role="img">★★★★<span class="text-stone-300">★</span></div>
+<p class="mt-2 text-xs uppercase tracking-widest font-semibold text-stone-500">Sarah K. — Achat vérifié, Bordeaux</p>
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<!-- Flèches minimalistes, aux bords de la section -->
+<button aria-label="Avis précédent" class="absolute left-1 sm:left-6 lg:left-12 top-1/2 -translate-y-1/2 p-2 text-stone-500 hover:text-stone-900 transition" data-review-nav="prev" type="button"><svg aria-hidden="true" class="w-6 h-6 sm:w-8 sm:h-8" fill="none" stroke="currentColor" stroke-width="1.2" viewBox="0 0 24 24"><path d="M15 19l-7-7 7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+<button aria-label="Avis suivant" class="absolute right-1 sm:right-6 lg:right-12 top-1/2 -translate-y-1/2 p-2 text-stone-500 hover:text-stone-900 transition" data-review-nav="next" type="button"><svg aria-hidden="true" class="w-6 h-6 sm:w-8 sm:h-8" fill="none" stroke="currentColor" stroke-width="1.2" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+
+</section><section class="w-full py-12 sm:py-16 overflow-hidden" data-purpose="brand-ambassadors"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10 text-center"><div class="inline-flex items-center gap-2 mb-2"><span class="text-[11px] uppercase tracking-widest text-amber-700 font-semibold">Communauté &amp; Rayonnement</span><span class="h-px w-8 bg-amber-600/40"></span></div><h2 class="text-3xl sm:text-4xl font-editorial font-normal tracking-tight text-stone-900">Nos égéries</h2><p class="mt-2 text-xs sm:text-sm text-stone-600 font-light max-w-lg mx-auto">Les ambassadrices et visages qui célèbrent au quotidien l'éclat intemporel et la beauté authentique Belle Nubian.</p></div><div class="marquee-viewport relative w-full overflow-hidden"><div class="marquee-track flex items-stretch py-2"><div class="mr-5 flex-shrink-0 w-[240px] sm:w-[280px] h-[340px] sm:h-[380px] rounded-2xl overflow-hidden shadow-md border border-stone-200/90 relative group"><img alt="Égérie Belle Nubian" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="images/img-23.webp" width="340" height="338" decoding="async" loading="lazy"><div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-4"><span class="text-xs font-medium text-white tracking-wide">Soin Éclat Clarifiant</span></div></div><div class="mr-5 flex-shrink-0 w-[240px] sm:w-[280px] h-[340px] sm:h-[380px] rounded-2xl overflow-hidden shadow-md border border-stone-200/90 relative group"><img alt="Égérie Belle Nubian" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="images/img-24.webp" width="338" height="337" decoding="async" loading="lazy"><div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-4"><span class="text-xs font-medium text-white tracking-wide">Protection Sunscreen Spray</span></div></div><div class="mr-5 flex-shrink-0 w-[240px] sm:w-[280px] h-[340px] sm:h-[380px] rounded-2xl overflow-hidden shadow-md border border-stone-200/90 relative group"><img alt="Égérie Belle Nubian" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="images/img-25.webp" width="337" height="339" decoding="async" loading="lazy"><div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-4"><span class="text-xs font-medium text-white tracking-wide">Lotion Corps &amp; Hydratation</span></div></div><div class="mr-5 flex-shrink-0 w-[240px] sm:w-[280px] h-[340px] sm:h-[380px] rounded-2xl overflow-hidden shadow-md border border-stone-200/90 relative group"><img alt="Égérie Belle Nubian" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="images/img-26.webp" width="338" height="344" decoding="async" loading="lazy"><div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-4"><span class="text-xs font-medium text-white tracking-wide">Masque &amp; Sérum Régénérant</span></div></div><div class="mr-5 flex-shrink-0 w-[240px] sm:w-[280px] h-[340px] sm:h-[380px] rounded-2xl overflow-hidden shadow-md border border-stone-200/90 relative group"><img alt="Égérie Belle Nubian" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="images/img-27.webp" width="342" height="343" decoding="async" loading="lazy"><div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-4"><span class="text-xs font-medium text-white tracking-wide">Ultimate Gluta &amp; Collagène</span></div></div><div class="mr-5 flex-shrink-0 w-[240px] sm:w-[280px] h-[340px] sm:h-[380px] rounded-2xl overflow-hidden shadow-md border border-stone-200/90 relative group"><img alt="Égérie Belle Nubian" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="images/img-28.webp" width="350" height="340" decoding="async" loading="lazy"><div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-4"><span class="text-xs font-medium text-white tracking-wide">Gel Douche Exfoliant Nubian</span></div></div><div class="mr-5 flex-shrink-0 w-[240px] sm:w-[280px] h-[340px] sm:h-[380px] rounded-2xl overflow-hidden shadow-md border border-stone-200/90 relative group"><img alt="Égérie Belle Nubian" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="images/img-29.webp" width="340" height="335" decoding="async" loading="lazy"><div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-4"><span class="text-xs font-medium text-white tracking-wide">Gommage Visage Vitaminé</span></div></div><div class="mr-5 flex-shrink-0 w-[240px] sm:w-[280px] h-[340px] sm:h-[380px] rounded-2xl overflow-hidden shadow-md border border-stone-200/90 relative group"><img alt="Égérie Belle Nubian" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="images/img-30.webp" width="334" height="336" decoding="async" loading="lazy"><div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-4"><span class="text-xs font-medium text-white tracking-wide">Belle Nubian Vallon Rituels</span></div></div><div class="mr-5 flex-shrink-0 w-[240px] sm:w-[280px] h-[340px] sm:h-[380px] rounded-2xl overflow-hidden shadow-md border border-stone-200/90 relative group"><img alt="Égérie Belle Nubian" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="images/img-31.webp" width="335" height="336" decoding="async" loading="lazy"><div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-4"><span class="text-xs font-medium text-white tracking-wide">Savon Anti-Taches &amp; Huile Massage</span></div></div><div aria-hidden="true" class="mr-5 flex-shrink-0 w-[240px] sm:w-[280px] h-[340px] sm:h-[380px] rounded-2xl overflow-hidden shadow-md border border-stone-200/90 relative group"><img alt="" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="images/img-23.webp" width="340" height="338" decoding="async" loading="lazy"><div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-4"><span class="text-xs font-medium text-white tracking-wide">Soin Éclat Clarifiant</span></div></div><div aria-hidden="true" class="mr-5 flex-shrink-0 w-[240px] sm:w-[280px] h-[340px] sm:h-[380px] rounded-2xl overflow-hidden shadow-md border border-stone-200/90 relative group"><img alt="" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="images/img-24.webp" width="338" height="337" decoding="async" loading="lazy"><div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-4"><span class="text-xs font-medium text-white tracking-wide">Protection Sunscreen Spray</span></div></div><div aria-hidden="true" class="mr-5 flex-shrink-0 w-[240px] sm:w-[280px] h-[340px] sm:h-[380px] rounded-2xl overflow-hidden shadow-md border border-stone-200/90 relative group"><img alt="" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="images/img-25.webp" width="337" height="339" decoding="async" loading="lazy"><div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-4"><span class="text-xs font-medium text-white tracking-wide">Lotion Corps &amp; Hydratation</span></div></div><div aria-hidden="true" class="mr-5 flex-shrink-0 w-[240px] sm:w-[280px] h-[340px] sm:h-[380px] rounded-2xl overflow-hidden shadow-md border border-stone-200/90 relative group"><img alt="" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="images/img-26.webp" width="338" height="344" decoding="async" loading="lazy"><div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-4"><span class="text-xs font-medium text-white tracking-wide">Masque &amp; Sérum Régénérant</span></div></div><div aria-hidden="true" class="mr-5 flex-shrink-0 w-[240px] sm:w-[280px] h-[340px] sm:h-[380px] rounded-2xl overflow-hidden shadow-md border border-stone-200/90 relative group"><img alt="" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="images/img-27.webp" width="342" height="343" decoding="async" loading="lazy"><div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-4"><span class="text-xs font-medium text-white tracking-wide">Ultimate Gluta &amp; Collagène</span></div></div><div aria-hidden="true" class="mr-5 flex-shrink-0 w-[240px] sm:w-[280px] h-[340px] sm:h-[380px] rounded-2xl overflow-hidden shadow-md border border-stone-200/90 relative group"><img alt="" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="images/img-28.webp" width="350" height="340" decoding="async" loading="lazy"><div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-4"><span class="text-xs font-medium text-white tracking-wide">Gel Douche Exfoliant Nubian</span></div></div><div aria-hidden="true" class="mr-5 flex-shrink-0 w-[240px] sm:w-[280px] h-[340px] sm:h-[380px] rounded-2xl overflow-hidden shadow-md border border-stone-200/90 relative group"><img alt="" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="images/img-29.webp" width="340" height="335" decoding="async" loading="lazy"><div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-4"><span class="text-xs font-medium text-white tracking-wide">Gommage Visage Vitaminé</span></div></div><div aria-hidden="true" class="mr-5 flex-shrink-0 w-[240px] sm:w-[280px] h-[340px] sm:h-[380px] rounded-2xl overflow-hidden shadow-md border border-stone-200/90 relative group"><img alt="" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="images/img-30.webp" width="334" height="336" decoding="async" loading="lazy"><div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-4"><span class="text-xs font-medium text-white tracking-wide">Belle Nubian Vallon Rituels</span></div></div><div aria-hidden="true" class="mr-5 flex-shrink-0 w-[240px] sm:w-[280px] h-[340px] sm:h-[380px] rounded-2xl overflow-hidden shadow-md border border-stone-200/90 relative group"><img alt="" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="images/img-31.webp" width="335" height="336" decoding="async" loading="lazy"><div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-4"><span class="text-xs font-medium text-white tracking-wide">Savon Anti-Taches &amp; Huile Massage</span></div></div></div></div></section>
+<!-- END: ReviewsSection -->
+<!-- BEGIN: FAQSection -->
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16" data-purpose="faq-accordion" id="faq"><div class="max-w-4xl mx-auto"><div class="bg-[#E7E5DD] rounded-3xl p-6 sm:p-12 border border-stone-300/80 shadow-sm"><div class="text-center mb-10"><span class="text-[11px] uppercase tracking-widest text-amber-700 font-semibold block mb-2">Réponses &amp; Conseils</span><h2 class="text-3xl sm:text-4xl font-editorial font-medium tracking-tight text-stone-900">FAQ</h2><p class="mt-2 text-xs sm:text-sm text-stone-600 font-light max-w-xl mx-auto leading-relaxed">Belle Nubian Paris conçoit des soins pensés pour révéler l'éclat de chaque carnation, des peaux claires aux peaux ébène. Retrouvez ici nos réponses sur nos formules, nos ingrédients et nos rituels.</p></div><div class="divide-y divide-stone-300/80" data-purpose="accordion-group">
+<!-- TODO : faire valider les réponses par la marque avant mise en ligne (composition sans hydroquinone/corticoïdes/mercure, délais de résultats) -->
+<details class="group py-5 cursor-pointer" open><summary class="flex justify-between items-center font-medium text-stone-900 list-none [&::-webkit-details-marker]:hidden text-base sm:text-lg"><span>Vos produits contiennent-ils de l'hydroquinone ?</span><span aria-hidden="true" class="group-open:rotate-180 transition-transform duration-200 text-stone-500">▾</span></summary><p class="mt-3 text-xs sm:text-sm text-stone-600 font-light leading-relaxed">Non. Nos formules sont sans hydroquinone, sans corticoïdes et sans mercure, des substances interdites dans les cosmétiques en Europe. Pour unifier le teint, nous misons sur des actifs comme le glutathion et l'arbutine, associés à des agents hydratants et antioxydants.</p></details><details class="group py-5 cursor-pointer"><summary class="flex justify-between items-center font-medium text-stone-900 list-none [&::-webkit-details-marker]:hidden text-base sm:text-lg"><span>Comment choisir la gamme adaptée à ma carnation ?</span><span aria-hidden="true" class="group-open:rotate-180 transition-transform duration-200 text-stone-500">▾</span></summary><p class="mt-3 text-xs sm:text-sm text-stone-600 font-light leading-relaxed">Nos rituels sont déclinés en cinq nuances : Half Cast, Light Skin, Diamond, Caramel et Dark. Sélectionnez la vôtre dans la section <a class="underline hover:text-stone-900" href="#skin-tones-section">Soins par carnation</a> pour découvrir la routine recommandée. En cas d'hésitation, notre service client vous guide 7j/7.</p></details><details class="group py-5 cursor-pointer"><summary class="flex justify-between items-center font-medium text-stone-900 list-none [&::-webkit-details-marker]:hidden text-base sm:text-lg"><span>En combien de temps voit-on des résultats ?</span><span aria-hidden="true" class="group-open:rotate-180 transition-transform duration-200 text-stone-500">▾</span></summary><p class="mt-3 text-xs sm:text-sm text-stone-600 font-light leading-relaxed">L'éclat et le confort de la peau s'améliorent dès les premières applications. Pour les taches et l'uniformité du teint, comptez en général 4 à 8 semaines d'utilisation régulière, le temps d'un à deux cycles de renouvellement cellulaire. Les résultats varient selon chaque peau.</p></details><details class="group py-5 cursor-pointer"><summary class="flex justify-between items-center font-medium text-stone-900 list-none [&::-webkit-details-marker]:hidden text-base sm:text-lg"><span>Faut-il une protection solaire pendant le soin anti-taches ?</span><span aria-hidden="true" class="group-open:rotate-180 transition-transform duration-200 text-stone-500">▾</span></summary><p class="mt-3 text-xs sm:text-sm text-stone-600 font-light leading-relaxed">Oui, c'est indispensable. Le soleil réactive les taches et ralentit les résultats. Appliquez chaque matin une protection SPF 50+, comme notre Crème Solaire Fluide Invisible, et renouvelez-la en cas d'exposition prolongée.</p></details></div></div></div></section>
+<!-- END: FAQSection -->
+</main>
+<!-- BEGIN: MainFooter -->
+<footer class="bg-white border-t border-stone-200 pt-12 sm:pt-16 pb-10" data-purpose="site-footer">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Footer Columns & Newsletter -->
+<div class="pb-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10">
+<!-- Left Newsletter Block -->
+<div class="lg:col-span-5 space-y-4">
+<p class="text-xs sm:text-sm text-stone-600 leading-relaxed max-w-sm">
+            Inscrivez-vous à notre cercle privé pour recevoir nos avant-premières, invitations exclusives et conseils dermatologiques directement depuis Paris.
+          </p>
+<!-- Input Group -->
+<form class="flex items-center max-w-sm border border-stone-300 rounded-full p-1 bg-white focus-within:border-black transition" onsubmit="event.preventDefault();">
+<input aria-label="Votre adresse e-mail" autocomplete="email" class="w-full px-4 py-2 text-xs text-stone-800 bg-transparent border-0 focus:ring-0 focus:outline-none placeholder-stone-500" placeholder="Votre adresse e-mail" required="" type="email">
+<button class="px-5 py-2.5 bg-black text-white text-xs font-semibold rounded-full hover:bg-stone-800 transition tracking-wide" type="submit">
+              S'inscrire
+            </button>
+</form>
+<p class="text-[11px] text-stone-500">
+            En vous inscrivant, vous acceptez notre <a class="underline hover:text-stone-700" href="#">Politique de confidentialité</a>.
+          </p>
+</div>
+<!-- Navigation Link Columns -->
+<div class="lg:col-span-7 grid grid-cols-2 sm:grid-cols-4 md:grid-cols-2 lg:grid-cols-4 gap-8 text-xs [overflow-wrap:anywhere]">
+<!-- Column 1: Navigate -->
+<div>
+<h3 class="font-semibold text-stone-900 uppercase tracking-wider mb-4">Navigation</h3>
+<ul class="space-y-2.5 text-stone-600">
+<li><a class="hover:text-black transition" href="#sale">Soldes d'été</a></li>
+<li><a class="hover:text-black transition" href="produits.html">Nos Produits</a></li>
+<li><a class="hover:text-black transition" href="#sale">Offres Privilèges</a></li>
+<li><a class="hover:text-black transition" href="#faq">À propos</a></li>
+<li><a class="hover:text-black transition" href="#communications">Presse &amp; Médias</a></li>
+</ul>
+</div>
+<!-- Column 2: Social -->
+<div>
+<h3 class="font-semibold text-stone-900 uppercase tracking-wider mb-4">Réseaux</h3>
+<ul class="space-y-2.5 text-stone-600">
+<li><a class="hover:text-black transition" href="#">Instagram</a></li>
+<li><a class="hover:text-black transition" href="#">WeChat</a></li>
+<li><a class="hover:text-black transition" href="#">TikTok</a></li>
+<li><a class="hover:text-black transition" href="#">Facebook</a></li>
+</ul>
+</div>
+<!-- Column 3: Offices -->
+<div id="boutiques">
+<h3 class="font-semibold text-stone-900 uppercase tracking-wider mb-4">Boutiques &amp; Siège</h3>
+<ul class="space-y-2.5 text-stone-600">
+<li>New York</li>
+<li>Paris</li>
+<li>Abidjan</li>
+<li>Lagos</li>
+</ul>
+</div>
+<!-- Column 4: Support -->
+<div>
+<h3 class="font-semibold text-stone-900 uppercase tracking-wider mb-4">Service Client</h3>
+<ul class="space-y-2.5 text-stone-600">
+<li class="text-stone-900 font-medium">Lun-Sam (07h00 - 19h00 CET)</li>
+<li><a class="hover:text-black transition" href="tel:+18005550199">+1 800 Nubian</a></li>
+<li><a class="hover:text-black transition" href="mailto:care@bellenubian.com">care@bellenubian.com</a></li>
+<li><a class="hover:text-black transition" href="#">Nous contacter</a></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Bottom Copyright Line -->
+<div class="pt-8 border-t border-stone-200 flex flex-col sm:flex-row items-center justify-between text-[11px] text-stone-500">
+<p>© 2025 Belle Nubian Paris. Tous droits réservés.</p>
+<div class="flex space-x-6 mt-4 sm:mt-0">
+<a class="hover:underline" href="#">Conditions Générales</a>
+<a class="hover:underline" href="#">Politique de Confidentialité</a>
+<a class="hover:underline" href="#">Gestion des cookies</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- END: MainFooter -->
+<script src="assets/products.js"></script>
+<script src="assets/quickview.js"></script>
+<script src="assets/main.js"></script>
+<script src="assets/tournage.js"></script>
+</body></html>

@@ -1,0 +1,61 @@
+<main class="w-full" id="main">
+<section aria-labelledby="collection-title" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-12 sm:pb-16">
+<!-- Fil d'Ariane -->
+<nav aria-label="Fil d'Ariane" class="text-xs text-stone-500">
+<ol class="flex items-center gap-2">
+<li><a class="hover:text-stone-900 transition" href="code.html">Accueil</a></li>
+<li aria-hidden="true">/</li>
+<li aria-current="page" class="text-stone-900">Tous les produits</li>
+</ol>
+</nav>
+<!-- En-tête de collection -->
+<header class="mt-6 mb-8 sm:mb-10">
+<h1 class="text-4xl sm:text-5xl font-editorial font-normal tracking-tight text-stone-950" id="collection-title">Tous les produits</h1>
+<p class="mt-3 max-w-xl text-sm text-stone-600 font-light leading-relaxed">Sérums, crèmes, nettoyants et protections solaires : toute la collection Belle Nubian pour révéler l'éclat de chaque carnation.</p>
+</header>
+<!-- Barre d'outils : filtres (mobile), nombre de produits, tri -->
+<div class="flex flex-wrap items-center justify-between gap-x-4 gap-y-3 border-y border-stone-200 py-3">
+<div class="flex items-center gap-3 sm:gap-4">
+<button aria-controls="filters-panel" aria-expanded="false" class="lg:hidden inline-flex items-center gap-2 rounded-full border border-stone-300 bg-white px-3 sm:px-4 py-2 text-sm font-medium text-stone-900 hover:border-stone-900 transition" id="filters-open" type="button">
+<svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+Filtrer
+</button>
+<p aria-live="polite" class="whitespace-nowrap text-xs sm:text-sm text-stone-600" id="collection-count"></p>
+</div>
+<label class="flex items-center gap-2 text-sm text-stone-600">
+<span class="hidden sm:inline">Trier par</span>
+<span class="sr-only sm:hidden">Trier par</span>
+<select class="rounded-full border-stone-300 bg-white py-2 pl-4 pr-9 text-sm text-stone-900 focus:border-stone-900 focus:ring-stone-900 max-w-[9.5rem] sm:max-w-none" id="sort-select"></select>
+</label>
+</div>
+<!-- Filtres actifs -->
+<div aria-label="Filtres actifs" class="mt-4 flex flex-wrap items-center gap-2 hidden" id="active-filters" role="group"></div>
+<div class="mt-8 lg:grid lg:grid-cols-[240px_1fr] lg:gap-12">
+<!-- Filtres : barre latérale (desktop) / tiroir (mobile) -->
+<div class="fixed inset-0 z-[55] bg-stone-900/30 hidden lg:hidden" id="filters-backdrop"></div>
+<aside aria-label="Filtres" class="fixed inset-y-0 left-0 z-[60] flex w-[88%] max-w-sm flex-col bg-[#FAF9F5] shadow-xl -translate-x-full transition-transform duration-300 lg:static lg:z-auto lg:w-auto lg:max-w-none lg:translate-x-0 lg:bg-transparent lg:shadow-none lg:transition-none" id="filters-panel">
+<div class="flex items-center justify-between border-b border-stone-200 px-5 py-4 lg:hidden">
+<h2 class="text-base font-semibold text-stone-900">Filtrer</h2>
+<button aria-label="Fermer les filtres" class="p-1.5 text-stone-700 hover:text-black transition" id="filters-close" type="button">
+<svg aria-hidden="true" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+</button>
+</div>
+<form class="flex-1 overflow-y-auto px-5 lg:px-0 lg:sticky lg:top-28 lg:max-h-[calc(100vh-8rem)] lg:-mt-4" id="filters-form"></form>
+<div class="flex gap-3 border-t border-stone-200 px-5 py-4 lg:hidden">
+<button class="flex-1 rounded-full border border-stone-300 py-3 text-sm font-medium text-stone-900 hover:border-stone-900 transition" id="filters-clear" type="button">Tout effacer</button>
+<button class="flex-1 rounded-full bg-black py-3 text-sm font-medium text-white hover:bg-stone-800 transition" id="filters-apply" type="button">Voir les produits</button>
+</div>
+</aside>
+<!-- Grille produits -->
+<div>
+<ul class="grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 lg:grid-cols-3" id="product-grid"></ul>
+<div class="hidden py-20 text-center" id="empty-state">
+<p class="font-editorial text-2xl text-stone-900">Aucun produit ne correspond à ces filtres</p>
+<p class="mt-2 text-sm text-stone-600">Essayez d'en retirer un ou deux.</p>
+<button class="mt-6 rounded-full bg-black px-6 py-3 text-sm font-medium text-white hover:bg-stone-800 transition" id="empty-reset" type="button">Effacer tous les filtres</button>
+</div>
+<nav aria-label="Pagination" class="mt-14 flex items-center justify-center gap-1 hidden" id="pagination"></nav>
+</div>
+</div>
+</section>
+</main>

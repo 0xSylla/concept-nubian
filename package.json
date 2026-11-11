@@ -1,0 +1,16 @@
+{
+  "name": "belle-nubian-landing",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build:pages": "node scripts/build-pages.cjs",
+    "build:css": "tailwindcss -i ./src/input.css -o ./assets/styles.css --minify",
+    "watch:css": "tailwindcss -i ./src/input.css -o ./assets/styles.css --watch",
+    "build": "npm run build:pages && npm run build:css"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.9",
+    "sharp": "^0.33.5",
+    "tailwindcss": "^3.4.17"
+  }
+}

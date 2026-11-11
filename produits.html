@@ -1,0 +1,262 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="fr"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Tous les produits | Belle Nubian Paris</title>
+<!-- Google Fonts: Cormorant Garamond (Editorial Serif) & Plus Jakarta Sans (Clean Modern Sans) -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="assets/styles.css" rel="stylesheet">
+<meta name="description" content="Toute la collection Belle Nubian Paris : sérums, crèmes, nettoyants, protection solaire et coffrets. Filtrez par carnation, préoccupation et type de produit.">
+<meta name="theme-color" content="#FAF9F5">
+<!-- Open Graph / partage social. TODO : passer og:image en URL absolue et ajouter og:url une fois le domaine connu -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Belle Nubian Paris">
+<meta property="og:title" content="Tous les produits | Belle Nubian Paris">
+<meta property="og:description" content="Sérums, crèmes et rituels d'éclat pour sublimer chaque carnation. Livraison offerte dès 75 €.">
+<meta property="og:image" content="images/hero-carnations.webp">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body class="bg-[#FAF9F5] text-[#111111] antialiased selection:bg-stone-800 selection:text-white">
+<a class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] focus:px-4 focus:py-2 focus:rounded-full focus:bg-black focus:text-white focus:text-sm" href="#main">Aller au contenu</a>
+<!-- BEGIN: MainHeader -->
+<header class="sticky top-0 z-50 bg-[#FAF9F5]/90 backdrop-blur-md border-b border-stone-200/60 transition-all duration-300">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+<!-- Logo Branding -->
+<div class="flex items-center space-x-8">
+<a class="group flex flex-col leading-none items-center" data-purpose="brand-logo" href="code.html"><span class="font-editorial text-2xl sm:text-3xl font-semibold tracking-tight text-stone-950">Belle Nubian</span><span class="text-[10px] uppercase tracking-widest text-stone-500 font-sans -mt-1">Paris</span></a>
+<!-- Desktop Navigation Links -->
+<nav class="hidden lg:flex items-center space-x-8 pl-6 border-l border-stone-300" aria-label="Navigation principale" data-purpose="main-navigation"><a class="text-sm font-medium tracking-wide text-rose-800 hover:text-black transition" href="code.html#sale">Promo -40%</a>
+<button aria-controls="mega-menu" aria-expanded="false" class="group flex items-center gap-1 text-sm font-medium tracking-wide text-stone-800 hover:text-black aria-expanded:text-black transition" id="mega-menu-trigger" type="button">Nos Produits<svg aria-hidden="true" class="w-3.5 h-3.5 text-stone-500 transition-transform duration-200 group-aria-expanded:rotate-180" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+<a class="text-sm font-medium tracking-wide text-stone-700 hover:text-black transition" href="code.html#skin-tones-section">Par carnation</a>
+<a class="text-sm font-medium tracking-wide text-stone-700 hover:text-black transition" href="code.html#faq">À propos</a></nav>
+</div>
+<!-- Right Utility Icons -->
+<div class="flex items-center space-x-5 sm:space-x-6 text-stone-800" data-purpose="header-utilities">
+<!-- Search -->
+<button aria-label="Rechercher" class="p-1.5 hover:text-stone-500 transition" type="button">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+</button>
+<!-- Wishlist -->
+<a aria-label="Favoris" class="p-1.5 hover:text-stone-500 transition relative" data-wishlist-link href="produits.html?favoris=1">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+<span class="absolute top-0.5 right-0.5 w-1.5 h-1.5 bg-rose-700 rounded-full hidden" data-wishlist-dot></span>
+</a>
+<!-- Cart Bag -->
+<button aria-label="Panier vide" class="p-1.5 hover:text-stone-500 transition relative flex items-center" data-cart-button type="button">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25c-.67 0-1.19-.578-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+<span aria-hidden="true" class="ml-1 text-xs font-semibold hidden" data-cart-count>0</span>
+</button>
+<!-- Menu mobile -->
+<button aria-controls="mobile-menu" aria-expanded="false" aria-label="Ouvrir le menu" class="lg:hidden p-1.5 hover:text-stone-500 transition" id="mobile-menu-toggle" type="button">
+<svg aria-hidden="true" class="w-6 h-6" data-icon="open" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M3.75 6.75h16.5M3.75 12h16.5M3.75 17.25h16.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+<svg aria-hidden="true" class="w-6 h-6 hidden" data-icon="close" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+</button>
+</div>
+</div>
+<!-- Méga-menu « Nos Produits » (desktop) : chaque lien ouvre la collection pré-filtrée -->
+<div class="hidden lg:block absolute inset-x-0 top-full bg-[#FAF9F5] border-b border-stone-200 shadow-[0_24px_40px_-28px_rgba(0,0,0,0.25)] invisible opacity-0 -translate-y-1 transition duration-200" id="mega-menu">
+<div class="max-w-7xl mx-auto px-8 pt-10 pb-12 grid grid-cols-4 gap-10">
+<div>
+<h2 class="text-[11px] uppercase tracking-widest text-stone-500 font-semibold mb-5">À la une</h2>
+<ul class="space-y-3">
+<li><a class="text-sm font-medium text-stone-900 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html">Tous les produits</a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?sort=newest">Nouveautés</a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?sort=best-selling">Meilleures ventes</a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?concern=taches,hyperpigmentation">Collection Anti-Taches</a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?type=carte-cadeau">Carte cadeau</a></li>
+<li><a class="text-sm text-rose-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?promo=1">Promo -40%</a></li>
+</ul>
+</div>
+<div>
+<h2 class="text-[11px] uppercase tracking-widest text-stone-500 font-semibold mb-5">Par préoccupation</h2>
+<ul class="space-y-3">
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?concern=taches">Taches &amp; teint irrégulier</a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?concern=hyperpigmentation">Hyperpigmentation</a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?concern=teint-terne">Teint terne</a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?concern=peau-seche">Peau sèche</a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?concern=pores">Pores &amp; imperfections</a></li>
+</ul>
+</div>
+<div>
+<h2 class="text-[11px] uppercase tracking-widest text-stone-500 font-semibold mb-5">Par carnation</h2>
+<ul class="space-y-3">
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?tone=half-cast">Half Cast <span class="font-editorial italic text-stone-500">Métisse</span></a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?tone=light-skin">Light Skin <span class="font-editorial italic text-stone-500">Clair</span></a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?tone=diamond">Diamond <span class="font-editorial italic text-stone-500">Diamant</span></a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?tone=caramel">Caramel <span class="font-editorial italic text-stone-500">Caramel</span></a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?tone=dark">Dark <span class="font-editorial italic text-stone-500">Foncé</span></a></li>
+</ul>
+</div>
+<div>
+<h2 class="text-[11px] uppercase tracking-widest text-stone-500 font-semibold mb-5">Par type de produit</h2>
+<ul class="space-y-3">
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?type=nettoyants">Nettoyants &amp; savons</a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?type=serums">Sérums</a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?type=cremes">Crèmes visage</a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?type=solaire">Protection solaire</a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?type=corps">Soins corps</a></li>
+<li><a class="text-sm text-stone-800 hover:text-black hover:underline underline-offset-4 decoration-stone-300 transition" href="produits.html?type=coffrets">Coffrets</a></li>
+</ul>
+</div>
+</div>
+</div>
+<nav aria-label="Navigation mobile" class="lg:hidden hidden border-t border-stone-200/60 bg-[#FAF9F5]" id="mobile-menu">
+<ul class="max-w-7xl mx-auto px-4 sm:px-6 py-2 flex flex-col divide-y divide-stone-200/70">
+<li><a class="block py-3.5 text-sm font-medium tracking-wide text-rose-800 hover:text-black transition" href="code.html#sale">Promo -40%</a></li>
+<li><a class="block py-3.5 text-sm font-medium tracking-wide text-stone-800 hover:text-black transition" href="produits.html">Nos Produits</a></li>
+<li><a class="block py-3.5 text-sm font-medium tracking-wide text-stone-800 hover:text-black transition" href="code.html#skin-tones-section">Par carnation</a></li>
+<li><a class="block py-3.5 text-sm font-medium tracking-wide text-stone-800 hover:text-black transition" href="code.html#faq">À propos</a></li>
+</ul>
+</nav>
+</header>
+<div aria-hidden="true" class="hidden lg:block fixed inset-0 top-20 z-40 bg-stone-900/20 invisible opacity-0 transition duration-200" id="mega-menu-backdrop"></div>
+<!-- END: MainHeader -->
+<!-- Généré par scripts/build-pages.cjs : modifier src/produits-main.html, pas ce fichier -->
+<main class="w-full" id="main">
+<section aria-labelledby="collection-title" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-12 sm:pb-16">
+<!-- Fil d'Ariane -->
+<nav aria-label="Fil d'Ariane" class="text-xs text-stone-500">
+<ol class="flex items-center gap-2">
+<li><a class="hover:text-stone-900 transition" href="code.html">Accueil</a></li>
+<li aria-hidden="true">/</li>
+<li aria-current="page" class="text-stone-900">Tous les produits</li>
+</ol>
+</nav>
+<!-- En-tête de collection -->
+<header class="mt-6 mb-8 sm:mb-10">
+<h1 class="text-4xl sm:text-5xl font-editorial font-normal tracking-tight text-stone-950" id="collection-title">Tous les produits</h1>
+<p class="mt-3 max-w-xl text-sm text-stone-600 font-light leading-relaxed">Sérums, crèmes, nettoyants et protections solaires : toute la collection Belle Nubian pour révéler l'éclat de chaque carnation.</p>
+</header>
+<!-- Barre d'outils : filtres (mobile), nombre de produits, tri -->
+<div class="flex flex-wrap items-center justify-between gap-x-4 gap-y-3 border-y border-stone-200 py-3">
+<div class="flex items-center gap-3 sm:gap-4">
+<button aria-controls="filters-panel" aria-expanded="false" class="lg:hidden inline-flex items-center gap-2 rounded-full border border-stone-300 bg-white px-3 sm:px-4 py-2 text-sm font-medium text-stone-900 hover:border-stone-900 transition" id="filters-open" type="button">
+<svg aria-hidden="true" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+Filtrer
+</button>
+<p aria-live="polite" class="whitespace-nowrap text-xs sm:text-sm text-stone-600" id="collection-count"></p>
+</div>
+<label class="flex items-center gap-2 text-sm text-stone-600">
+<span class="hidden sm:inline">Trier par</span>
+<span class="sr-only sm:hidden">Trier par</span>
+<select class="rounded-full border-stone-300 bg-white py-2 pl-4 pr-9 text-sm text-stone-900 focus:border-stone-900 focus:ring-stone-900 max-w-[9.5rem] sm:max-w-none" id="sort-select"></select>
+</label>
+</div>
+<!-- Filtres actifs -->
+<div aria-label="Filtres actifs" class="mt-4 flex flex-wrap items-center gap-2 hidden" id="active-filters" role="group"></div>
+<div class="mt-8 lg:grid lg:grid-cols-[240px_1fr] lg:gap-12">
+<!-- Filtres : barre latérale (desktop) / tiroir (mobile) -->
+<div class="fixed inset-0 z-[55] bg-stone-900/30 hidden lg:hidden" id="filters-backdrop"></div>
+<aside aria-label="Filtres" class="fixed inset-y-0 left-0 z-[60] flex w-[88%] max-w-sm flex-col bg-[#FAF9F5] shadow-xl -translate-x-full transition-transform duration-300 lg:static lg:z-auto lg:w-auto lg:max-w-none lg:translate-x-0 lg:bg-transparent lg:shadow-none lg:transition-none" id="filters-panel">
+<div class="flex items-center justify-between border-b border-stone-200 px-5 py-4 lg:hidden">
+<h2 class="text-base font-semibold text-stone-900">Filtrer</h2>
+<button aria-label="Fermer les filtres" class="p-1.5 text-stone-700 hover:text-black transition" id="filters-close" type="button">
+<svg aria-hidden="true" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+</button>
+</div>
+<form class="flex-1 overflow-y-auto px-5 lg:px-0 lg:sticky lg:top-28 lg:max-h-[calc(100vh-8rem)] lg:-mt-4" id="filters-form"></form>
+<div class="flex gap-3 border-t border-stone-200 px-5 py-4 lg:hidden">
+<button class="flex-1 rounded-full border border-stone-300 py-3 text-sm font-medium text-stone-900 hover:border-stone-900 transition" id="filters-clear" type="button">Tout effacer</button>
+<button class="flex-1 rounded-full bg-black py-3 text-sm font-medium text-white hover:bg-stone-800 transition" id="filters-apply" type="button">Voir les produits</button>
+</div>
+</aside>
+<!-- Grille produits -->
+<div>
+<ul class="grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 lg:grid-cols-3" id="product-grid"></ul>
+<div class="hidden py-20 text-center" id="empty-state">
+<p class="font-editorial text-2xl text-stone-900">Aucun produit ne correspond à ces filtres</p>
+<p class="mt-2 text-sm text-stone-600">Essayez d'en retirer un ou deux.</p>
+<button class="mt-6 rounded-full bg-black px-6 py-3 text-sm font-medium text-white hover:bg-stone-800 transition" id="empty-reset" type="button">Effacer tous les filtres</button>
+</div>
+<nav aria-label="Pagination" class="mt-14 flex items-center justify-center gap-1 hidden" id="pagination"></nav>
+</div>
+</div>
+</section>
+</main>
+
+<!-- BEGIN: MainFooter -->
+<footer class="bg-white border-t border-stone-200 pt-12 sm:pt-16 pb-10" data-purpose="site-footer">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Footer Columns & Newsletter -->
+<div class="pb-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10">
+<!-- Left Newsletter Block -->
+<div class="lg:col-span-5 space-y-4">
+<p class="text-xs sm:text-sm text-stone-600 leading-relaxed max-w-sm">
+            Inscrivez-vous à notre cercle privé pour recevoir nos avant-premières, invitations exclusives et conseils dermatologiques directement depuis Paris.
+          </p>
+<!-- Input Group -->
+<form class="flex items-center max-w-sm border border-stone-300 rounded-full p-1 bg-white focus-within:border-black transition" onsubmit="event.preventDefault();">
+<input aria-label="Votre adresse e-mail" autocomplete="email" class="w-full px-4 py-2 text-xs text-stone-800 bg-transparent border-0 focus:ring-0 focus:outline-none placeholder-stone-500" placeholder="Votre adresse e-mail" required="" type="email">
+<button class="px-5 py-2.5 bg-black text-white text-xs font-semibold rounded-full hover:bg-stone-800 transition tracking-wide" type="submit">
+              S'inscrire
+            </button>
+</form>
+<p class="text-[11px] text-stone-500">
+            En vous inscrivant, vous acceptez notre <a class="underline hover:text-stone-700" href="code.html">Politique de confidentialité</a>.
+          </p>
+</div>
+<!-- Navigation Link Columns -->
+<div class="lg:col-span-7 grid grid-cols-2 sm:grid-cols-4 md:grid-cols-2 lg:grid-cols-4 gap-8 text-xs [overflow-wrap:anywhere]">
+<!-- Column 1: Navigate -->
+<div>
+<h3 class="font-semibold text-stone-900 uppercase tracking-wider mb-4">Navigation</h3>
+<ul class="space-y-2.5 text-stone-600">
+<li><a class="hover:text-black transition" href="code.html#sale">Soldes d'été</a></li>
+<li><a class="hover:text-black transition" href="produits.html">Nos Produits</a></li>
+<li><a class="hover:text-black transition" href="code.html#sale">Offres Privilèges</a></li>
+<li><a class="hover:text-black transition" href="code.html#faq">À propos</a></li>
+<li><a class="hover:text-black transition" href="code.html#communications">Presse &amp; Médias</a></li>
+</ul>
+</div>
+<!-- Column 2: Social -->
+<div>
+<h3 class="font-semibold text-stone-900 uppercase tracking-wider mb-4">Réseaux</h3>
+<ul class="space-y-2.5 text-stone-600">
+<li><a class="hover:text-black transition" href="code.html">Instagram</a></li>
+<li><a class="hover:text-black transition" href="code.html">WeChat</a></li>
+<li><a class="hover:text-black transition" href="code.html">TikTok</a></li>
+<li><a class="hover:text-black transition" href="code.html">Facebook</a></li>
+</ul>
+</div>
+<!-- Column 3: Offices -->
+<div id="boutiques">
+<h3 class="font-semibold text-stone-900 uppercase tracking-wider mb-4">Boutiques &amp; Siège</h3>
+<ul class="space-y-2.5 text-stone-600">
+<li>New York</li>
+<li>Paris</li>
+<li>Abidjan</li>
+<li>Lagos</li>
+</ul>
+</div>
+<!-- Column 4: Support -->
+<div>
+<h3 class="font-semibold text-stone-900 uppercase tracking-wider mb-4">Service Client</h3>
+<ul class="space-y-2.5 text-stone-600">
+<li class="text-stone-900 font-medium">Lun-Sam (07h00 - 19h00 CET)</li>
+<li><a class="hover:text-black transition" href="tel:+18005550199">+1 800 Nubian</a></li>
+<li><a class="hover:text-black transition" href="mailto:care@bellenubian.com">care@bellenubian.com</a></li>
+<li><a class="hover:text-black transition" href="code.html">Nous contacter</a></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Bottom Copyright Line -->
+<div class="pt-8 border-t border-stone-200 flex flex-col sm:flex-row items-center justify-between text-[11px] text-stone-500">
+<p>© 2025 Belle Nubian Paris. Tous droits réservés.</p>
+<div class="flex space-x-6 mt-4 sm:mt-0">
+<a class="hover:underline" href="code.html">Conditions Générales</a>
+<a class="hover:underline" href="code.html">Politique de Confidentialité</a>
+<a class="hover:underline" href="code.html">Gestion des cookies</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- END: MainFooter -->
+<script src="assets/products.js"></script>
+<script src="assets/collection.js"></script>
+<script src="assets/quickview.js"></script>
+<script src="assets/main.js"></script>
+<script src="assets/tournage.js"></script>
+</body></html>
